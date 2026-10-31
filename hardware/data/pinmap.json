@@ -1,0 +1,1039 @@
+{
+ "dropped": [
+  "DVP"
+ ],
+ "edge": {
+  "AIN0": {
+   "ball": "R19",
+   "group": "AIN0",
+   "mux": 7,
+   "pin": "P0_0",
+   "signal": "ANA_S0"
+  },
+  "AIN1": {
+   "ball": "R13",
+   "group": "AIN1",
+   "mux": 7,
+   "pin": "P0_1",
+   "signal": "ANA_S1"
+  },
+  "AIN2": {
+   "ball": "R12",
+   "group": "AIN2",
+   "mux": 7,
+   "pin": "P0_2",
+   "signal": "ANA_S2"
+  },
+  "AIN3": {
+   "ball": "R11",
+   "group": "AIN3",
+   "mux": 7,
+   "pin": "P0_3",
+   "signal": "ANA_S3"
+  },
+  "AIN4": {
+   "ball": "R10",
+   "group": "AIN4",
+   "mux": 7,
+   "pin": "P0_4",
+   "signal": "ANA_S4"
+  },
+  "AIN5": {
+   "ball": "N15",
+   "group": "AIN5",
+   "mux": 7,
+   "pin": "P0_5",
+   "signal": "ANA_S5"
+  },
+  "AOUT0": {
+   "ball": "J15",
+   "group": "AOUT0",
+   "mux": 7,
+   "pin": "P2_2",
+   "signal": "ANA_S18"
+  },
+  "AOUT1": {
+   "ball": "H15",
+   "group": "AOUT1",
+   "mux": 7,
+   "pin": "P2_3",
+   "signal": "ANA_S19"
+  },
+  "CAN_RXD": {
+   "ball": "F5",
+   "group": "CAN",
+   "mux": 4,
+   "pin": "P12_4",
+   "signal": "CAN_RXD_C"
+  },
+  "CAN_STB": {
+   "ball": "E5",
+   "group": "CAN",
+   "mux": 4,
+   "pin": "P12_6",
+   "signal": "CAN_STBY_C"
+  },
+  "CAN_TXD": {
+   "ball": "A10",
+   "group": "CAN",
+   "mux": 4,
+   "pin": "P12_5",
+   "signal": "CAN_TXD_C"
+  },
+  "CONSOLE_RX": {
+   "ball": "A14",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "SEUART_RX",
+   "signal": "SEUART_RX"
+  },
+  "CONSOLE_TX": {
+   "ball": "A13",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "SEUART_TX",
+   "signal": "SEUART_TX"
+  },
+  "CSI_CLK_N": {
+   "ball": "V16",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPICSI_C_N",
+   "signal": "MIPICSI_C_N"
+  },
+  "CSI_CLK_P": {
+   "ball": "W16",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPICSI_C_P",
+   "signal": "MIPICSI_C_P"
+  },
+  "CSI_D0_N": {
+   "ball": "V14",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPICSI_0_N",
+   "signal": "MIPICSI_0_N"
+  },
+  "CSI_D0_P": {
+   "ball": "W14",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPICSI_0_P",
+   "signal": "MIPICSI_0_P"
+  },
+  "CSI_D1_N": {
+   "ball": "V15",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPICSI_1_N",
+   "signal": "MIPICSI_1_N"
+  },
+  "CSI_D1_P": {
+   "ball": "W15",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPICSI_1_P",
+   "signal": "MIPICSI_1_P"
+  },
+  "DBG_NRST": {
+   "ball": "J12",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "NSRST",
+   "signal": "NSRST"
+  },
+  "DSI_CLK_N": {
+   "ball": "V10",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPIDSI_C_N",
+   "signal": "MIPIDSI_C_N"
+  },
+  "DSI_CLK_P": {
+   "ball": "W10",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPIDSI_C_P",
+   "signal": "MIPIDSI_C_P"
+  },
+  "DSI_D0_N": {
+   "ball": "V11",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPIDSI_0_N",
+   "signal": "MIPIDSI_0_N"
+  },
+  "DSI_D0_P": {
+   "ball": "W11",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPIDSI_0_P",
+   "signal": "MIPIDSI_0_P"
+  },
+  "DSI_D1_N": {
+   "ball": "V9",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPIDSI_1_N",
+   "signal": "MIPIDSI_1_N"
+  },
+  "DSI_D1_P": {
+   "ball": "W9",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "MIPIDSI_1_P",
+   "signal": "MIPIDSI_1_P"
+  },
+  "GPIO0": {
+   "ball": "R14",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P1_0",
+   "signal": "GPIO1_0"
+  },
+  "GPIO1": {
+   "ball": "M15",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P1_1",
+   "signal": "GPIO1_1"
+  },
+  "GPIO10": {
+   "ball": "A8",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P7_3",
+   "signal": "GPIO7_3"
+  },
+  "GPIO11": {
+   "ball": "T2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P7_5",
+   "signal": "GPIO7_5"
+  },
+  "GPIO12": {
+   "ball": "J2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P8_6",
+   "signal": "GPIO8_6"
+  },
+  "GPIO13": {
+   "ball": "K5",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P9_6",
+   "signal": "GPIO9_6"
+  },
+  "GPIO14": {
+   "ball": "L5",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P9_7",
+   "signal": "GPIO9_7"
+  },
+  "GPIO15": {
+   "ball": "N2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P10_3",
+   "signal": "GPIO10_3"
+  },
+  "GPIO16": {
+   "ball": "P1",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P10_7",
+   "signal": "GPIO10_7"
+  },
+  "GPIO17": {
+   "ball": "D18",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P12_3",
+   "signal": "GPIO12_3"
+  },
+  "GPIO18": {
+   "ball": "H2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P14_1",
+   "signal": "GPIO14_1"
+  },
+  "GPIO19": {
+   "ball": "R8",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P14_4",
+   "signal": "GPIO14_4"
+  },
+  "GPIO2": {
+   "ball": "L15",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P1_2",
+   "signal": "GPIO1_2"
+  },
+  "GPIO20": {
+   "ball": "L11",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P14_5",
+   "signal": "GPIO14_5"
+  },
+  "GPIO21": {
+   "ball": "K12",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P14_6",
+   "signal": "GPIO14_6"
+  },
+  "GPIO22": {
+   "ball": "L12",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P14_7",
+   "signal": "GPIO14_7"
+  },
+  "GPIO23": {
+   "ball": "V2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_0",
+   "signal": "GPIOV_0"
+  },
+  "GPIO24": {
+   "ball": "U2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_2",
+   "signal": "GPIOV_2"
+  },
+  "GPIO25": {
+   "ball": "V1",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_3",
+   "signal": "GPIOV_3"
+  },
+  "GPIO26": {
+   "ball": "V3",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_4",
+   "signal": "GPIOV_4"
+  },
+  "GPIO27": {
+   "ball": "W4",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_5",
+   "signal": "GPIOV_5"
+  },
+  "GPIO28": {
+   "ball": "V4",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_6",
+   "signal": "GPIOV_6"
+  },
+  "GPIO29": {
+   "ball": "W5",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_7",
+   "signal": "GPIOV_7"
+  },
+  "GPIO3": {
+   "ball": "E2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P3_2",
+   "signal": "GPIO3_2"
+  },
+  "GPIO4": {
+   "ball": "F18",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P4_0",
+   "signal": "GPIO4_0"
+  },
+  "GPIO5": {
+   "ball": "B19",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P4_1",
+   "signal": "GPIO4_1"
+  },
+  "GPIO6": {
+   "ball": "B18",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P4_3",
+   "signal": "GPIO4_3"
+  },
+  "GPIO7": {
+   "ball": "E10",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P5_5",
+   "signal": "GPIO5_5"
+  },
+  "GPIO8": {
+   "ball": "B12",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P5_6",
+   "signal": "GPIO5_6"
+  },
+  "GPIO9": {
+   "ball": "B11",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P5_7",
+   "signal": "GPIO5_7"
+  },
+  "I2C0_SCL": {
+   "ball": "B3",
+   "group": "I2C0",
+   "mux": 4,
+   "pin": "P7_1",
+   "signal": "I2C0_SCL_C"
+  },
+  "I2C0_SDA": {
+   "ball": "B8",
+   "group": "I2C0",
+   "mux": 4,
+   "pin": "P7_0",
+   "signal": "I2C0_SDA_C"
+  },
+  "I2C1_SCL": {
+   "ball": "L8",
+   "group": "I2C1",
+   "mux": 5,
+   "pin": "P3_7",
+   "signal": "I2C1_SCL_B"
+  },
+  "I2C1_SDA": {
+   "ball": "V5",
+   "group": "I2C1",
+   "mux": 5,
+   "pin": "P3_6",
+   "signal": "I2C1_SDA_B"
+  },
+  "I2S0_BCLK": {
+   "ball": "B6",
+   "group": "I2S0",
+   "mux": 4,
+   "pin": "P3_0",
+   "signal": "I2S0_SCLK_A"
+  },
+  "I2S0_DIN": {
+   "ball": "L19",
+   "group": "I2S0",
+   "mux": 3,
+   "pin": "P1_6",
+   "signal": "I2S0_SDI_A"
+  },
+  "I2S0_DOUT": {
+   "ball": "J18",
+   "group": "I2S0",
+   "mux": 3,
+   "pin": "P1_7",
+   "signal": "I2S0_SDO_A"
+  },
+  "I2S0_LRCLK": {
+   "ball": "A6",
+   "group": "I2S0",
+   "mux": 4,
+   "pin": "P3_1",
+   "signal": "I2S0_WS_A"
+  },
+  "I2S0_MCLK": {
+   "ball": "F19",
+   "group": "I2S0_MCLK",
+   "mux": 2,
+   "pin": "P12_0",
+   "signal": "AUDIO_CLK_C"
+  },
+  "I3C0_SCL": {
+   "ball": "U1",
+   "group": "I3C0",
+   "mux": 6,
+   "pin": "P7_7",
+   "signal": "I3C_SCL_D"
+  },
+  "I3C0_SDA": {
+   "ball": "U3",
+   "group": "I3C0",
+   "mux": 6,
+   "pin": "P7_6",
+   "signal": "I3C_SDA_D"
+  },
+  "PDM_CLK0": {
+   "ball": "E9",
+   "group": "PDM",
+   "mux": 3,
+   "pin": "P6_1",
+   "signal": "PDM_C0_C"
+  },
+  "PDM_CLK1": {
+   "ball": "B10",
+   "group": "PDM",
+   "mux": 4,
+   "pin": "P6_3",
+   "signal": "PDM_C1_C"
+  },
+  "PDM_DAT0": {
+   "ball": "A12",
+   "group": "PDM",
+   "mux": 3,
+   "pin": "P6_0",
+   "signal": "PDM_D0_C"
+  },
+  "PDM_DAT1": {
+   "ball": "A11",
+   "group": "PDM",
+   "mux": 4,
+   "pin": "P6_2",
+   "signal": "PDM_D1_C"
+  },
+  "PWM0": {
+   "ball": "T1",
+   "group": "PWM0",
+   "mux": 6,
+   "pin": "P7_4",
+   "signal": "UT10_T0_B"
+  },
+  "PWM1": {
+   "ball": "M1",
+   "group": "PWM1",
+   "mux": 4,
+   "pin": "P10_1",
+   "signal": "UT0_T1_C"
+  },
+  "PWM2": {
+   "ball": "M2",
+   "group": "PWM2",
+   "mux": 4,
+   "pin": "P10_0",
+   "signal": "UT0_T0_C"
+  },
+  "PWM3": {
+   "ball": "D1",
+   "group": "PWM3",
+   "mux": 6,
+   "pin": "P7_2",
+   "signal": "UT9_T0_B"
+  },
+  "PWM4": {
+   "ball": "E8",
+   "group": "PWM4",
+   "mux": 5,
+   "pin": "P6_4",
+   "signal": "UT6_T0_B"
+  },
+  "PWM5": {
+   "ball": "E11",
+   "group": "PWM5",
+   "mux": 5,
+   "pin": "P5_4",
+   "signal": "UT2_T0_B"
+  },
+  "QEC0_A": {
+   "ball": "B4",
+   "group": "QEC0",
+   "mux": 3,
+   "pin": "P8_4",
+   "signal": "QEC0_X_B"
+  },
+  "QEC0_B": {
+   "ball": "H1",
+   "group": "QEC0",
+   "mux": 3,
+   "pin": "P8_5",
+   "signal": "QEC0_Y_B"
+  },
+  "QEC1_A": {
+   "ball": "G2",
+   "group": "QEC1",
+   "mux": 5,
+   "pin": "P3_3",
+   "signal": "QEC1_X_A"
+  },
+  "QEC1_B": {
+   "ball": "F2",
+   "group": "QEC1",
+   "mux": 6,
+   "pin": "P3_4",
+   "signal": "QEC1_Y_A"
+  },
+  "SD_CD": {
+   "ball": "C19",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P4_2",
+   "signal": "GPIO4_2"
+  },
+  "SD_CLK": {
+   "ball": "K1",
+   "group": "SD",
+   "mux": 4,
+   "pin": "P9_1",
+   "signal": "SD_CLK_C"
+  },
+  "SD_CMD": {
+   "ball": "K2",
+   "group": "SD",
+   "mux": 4,
+   "pin": "P9_0",
+   "signal": "SD_CMD_C"
+  },
+  "SD_DAT0": {
+   "ball": "B7",
+   "group": "SD",
+   "mux": 5,
+   "pin": "P8_0",
+   "signal": "SD_D0_C"
+  },
+  "SD_DAT1": {
+   "ball": "C2",
+   "group": "SD",
+   "mux": 4,
+   "pin": "P8_1",
+   "signal": "SD_D1_C"
+  },
+  "SD_DAT2": {
+   "ball": "C3",
+   "group": "SD",
+   "mux": 5,
+   "pin": "P8_2",
+   "signal": "SD_D2_C"
+  },
+  "SD_DAT3": {
+   "ball": "A7",
+   "group": "SD",
+   "mux": 5,
+   "pin": "P8_3",
+   "signal": "SD_D3_C"
+  },
+  "SPI0_CS0": {
+   "ball": "E12",
+   "group": "SPI0",
+   "mux": 4,
+   "pin": "P5_2",
+   "signal": "SPI0_SS0_B"
+  },
+  "SPI0_CS1": {
+   "ball": "F1",
+   "group": "SPI0",
+   "mux": 4,
+   "pin": "P3_5",
+   "signal": "SPI0_SS1_B"
+  },
+  "SPI0_MISO": {
+   "ball": "A16",
+   "group": "SPI0",
+   "mux": 4,
+   "pin": "P5_0",
+   "signal": "SPI0_MISO_B"
+  },
+  "SPI0_MOSI": {
+   "ball": "B14",
+   "group": "SPI0",
+   "mux": 4,
+   "pin": "P5_1",
+   "signal": "SPI0_MOSI_B"
+  },
+  "SPI0_SCK": {
+   "ball": "B13",
+   "group": "SPI0",
+   "mux": 3,
+   "pin": "P5_3",
+   "signal": "SPI0_SCLK_B"
+  },
+  "SPI1_CS0": {
+   "ball": "J19",
+   "group": "SPI1",
+   "mux": 3,
+   "pin": "P2_7",
+   "signal": "SPI1_SS0_A"
+  },
+  "SPI1_MISO": {
+   "ball": "G19",
+   "group": "SPI1",
+   "mux": 3,
+   "pin": "P2_4",
+   "signal": "SPI1_MISO_A"
+  },
+  "SPI1_MOSI": {
+   "ball": "H19",
+   "group": "SPI1",
+   "mux": 3,
+   "pin": "P2_5",
+   "signal": "SPI1_MOSI_A"
+  },
+  "SPI1_SCK": {
+   "ball": "H18",
+   "group": "SPI1",
+   "mux": 3,
+   "pin": "P2_6",
+   "signal": "SPI1_SCLK_A"
+  },
+  "SWCLK": {
+   "ball": "B17",
+   "group": "DEBUG",
+   "mux": 1,
+   "pin": "P4_4",
+   "signal": "JTAG_TCK"
+  },
+  "SWDIO": {
+   "ball": "A19",
+   "group": "DEBUG",
+   "mux": 1,
+   "pin": "P4_5",
+   "signal": "JTAG_TMS"
+  },
+  "SWO": {
+   "ball": "B16",
+   "group": "DEBUG",
+   "mux": 1,
+   "pin": "P4_7",
+   "signal": "JTAG_TDO"
+  },
+  "TDI": {
+   "ball": "A18",
+   "group": "DEBUG",
+   "mux": 1,
+   "pin": "P4_6",
+   "signal": "JTAG_TDI"
+  },
+  "UART0_CTS": {
+   "ball": "E6",
+   "group": "UART0",
+   "mux": 2,
+   "pin": "P6_6",
+   "signal": "UART0_CTS_B"
+  },
+  "UART0_RTS": {
+   "ball": "A9",
+   "group": "UART0",
+   "mux": 2,
+   "pin": "P6_7",
+   "signal": "UART0_RTS_B"
+  },
+  "UART0_RX": {
+   "ball": "M19",
+   "group": "UART0",
+   "mux": 2,
+   "pin": "P1_4",
+   "signal": "UART0_RX_B"
+  },
+  "UART0_TX": {
+   "ball": "L18",
+   "group": "UART0",
+   "mux": 2,
+   "pin": "P1_5",
+   "signal": "UART0_TX_B"
+  },
+  "UART1_RX": {
+   "ball": "E18",
+   "group": "UART1",
+   "mux": 2,
+   "pin": "P12_1",
+   "signal": "UART4_RX_B"
+  },
+  "UART1_TX": {
+   "ball": "E15",
+   "group": "UART1",
+   "mux": 2,
+   "pin": "P12_2",
+   "signal": "UART4_TX_B"
+  },
+  "UART2_RX": {
+   "ball": "K19",
+   "group": "UART2",
+   "mux": 2,
+   "pin": "P2_0",
+   "signal": "UART2_RX_B"
+  },
+  "UART2_TX": {
+   "ball": "K18",
+   "group": "UART2",
+   "mux": 2,
+   "pin": "P2_1",
+   "signal": "UART2_TX_B"
+  },
+  "USB_DN": {
+   "ball": "V7",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "USB_DM",
+   "signal": "USB_DM"
+  },
+  "USB_DP": {
+   "ball": "W7",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "USB_DP",
+   "signal": "USB_DP"
+  },
+  "USB_ID": {
+   "ball": "R9",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "USB_IO_ID",
+   "signal": "USB_IO_ID"
+  },
+  "USB_VBUS": {
+   "ball": "W6",
+   "group": "dedicated",
+   "mux": null,
+   "pin": "USB_VBUS",
+   "signal": "USB_VBUS"
+  },
+  "WAKE_N": {
+   "ball": "W2",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P15_1",
+   "signal": "GPIOV_1"
+  }
+ },
+ "free_pins": [],
+ "internal": {
+  "ETH_RMII.CRS_DV": {
+   "ball": "J9",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P11_5",
+   "signal": "ETH_CRS_DV_B"
+  },
+  "ETH_RMII.IRQ": {
+   "ball": "L9",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P11_7",
+   "signal": "ETH_IRQ_B"
+  },
+  "ETH_RMII.MDC": {
+   "ball": "R2",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P11_2",
+   "signal": "ETH_MDC_B"
+  },
+  "ETH_RMII.MDIO": {
+   "ball": "R1",
+   "group": "ETH_RMII",
+   "mux": 5,
+   "pin": "P11_1",
+   "signal": "ETH_MDIO_B"
+  },
+  "ETH_RMII.REFCLK": {
+   "ball": "P2",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P11_0",
+   "signal": "ETH_REFCLK_B"
+  },
+  "ETH_RMII.RST": {
+   "ball": "R6",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P11_6",
+   "signal": "ETH_RST_B"
+  },
+  "ETH_RMII.RXD0": {
+   "ball": "R5",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P11_3",
+   "signal": "ETH_RXD0_B"
+  },
+  "ETH_RMII.RXD1": {
+   "ball": "K8",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P11_4",
+   "signal": "ETH_RXD1_B"
+  },
+  "ETH_RMII.TXD0": {
+   "ball": "M5",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P10_4",
+   "signal": "ETH_TXD0_B"
+  },
+  "ETH_RMII.TXD1": {
+   "ball": "N5",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P10_5",
+   "signal": "ETH_TXD1_B"
+  },
+  "ETH_RMII.TXEN": {
+   "ball": "P5",
+   "group": "ETH_RMII",
+   "mux": 6,
+   "pin": "P10_6",
+   "signal": "ETH_TXEN_B"
+  },
+  "OSPI_MEM.D0": {
+   "ball": "G18",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_0",
+   "signal": "OSPI1_D0_B"
+  },
+  "OSPI_MEM.D1": {
+   "ball": "G15",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_1",
+   "signal": "OSPI1_D1_B"
+  },
+  "OSPI_MEM.D2": {
+   "ball": "F15",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_2",
+   "signal": "OSPI1_D2_B"
+  },
+  "OSPI_MEM.D3": {
+   "ball": "E13",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_3",
+   "signal": "OSPI1_D3_B"
+  },
+  "OSPI_MEM.D4": {
+   "ball": "E14",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_4",
+   "signal": "OSPI1_D4_B"
+  },
+  "OSPI_MEM.D5": {
+   "ball": "A17",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_5",
+   "signal": "OSPI1_D5_B"
+  },
+  "OSPI_MEM.D6": {
+   "ball": "B15",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_6",
+   "signal": "OSPI1_D6_B"
+  },
+  "OSPI_MEM.D7": {
+   "ball": "A15",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P13_7",
+   "signal": "OSPI1_D7_B"
+  },
+  "OSPI_MEM.RXDS": {
+   "ball": "D2",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P12_7",
+   "signal": "OSPI1_RXDS_B"
+  },
+  "OSPI_MEM.SCLK": {
+   "ball": "B9",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P14_0",
+   "signal": "OSPI1_SCLK_B"
+  },
+  "OSPI_MEM.SS0": {
+   "ball": "G1",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P14_2",
+   "signal": "OSPI1_SS0_B"
+  },
+  "OSPI_MEM.SS1": {
+   "ball": "R7",
+   "group": "OSPI_MEM",
+   "mux": 1,
+   "pin": "P14_3",
+   "signal": "OSPI1_SS1_B"
+  },
+  "PMIC_I2C.SCL": {
+   "ball": "P15",
+   "group": "PMIC_I2C",
+   "mux": 4,
+   "pin": "P0_6",
+   "signal": "I2C2_SCL_A"
+  },
+  "PMIC_I2C.SDA": {
+   "ball": "R15",
+   "group": "PMIC_I2C",
+   "mux": 4,
+   "pin": "P0_7",
+   "signal": "I2C2_SDA_A"
+  },
+  "PMIC_nINT": {
+   "ball": "N1",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P10_2",
+   "signal": "GPIO10_2"
+  },
+  "SD_PWR_EN": {
+   "ball": "K15",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P1_3",
+   "signal": "GPIO1_3"
+  },
+  "WIFI_IRQ": {
+   "ball": "E7",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P6_5",
+   "signal": "GPIO6_5"
+  },
+  "WIFI_SPI.CS": {
+   "ball": "L1",
+   "group": "WIFI_SPI",
+   "mux": 3,
+   "pin": "P9_5",
+   "signal": "SPI2_SS0_B"
+  },
+  "WIFI_SPI.MISO": {
+   "ball": "G5",
+   "group": "WIFI_SPI",
+   "mux": 3,
+   "pin": "P9_2",
+   "signal": "SPI2_MISO_B"
+  },
+  "WIFI_SPI.MOSI": {
+   "ball": "H5",
+   "group": "WIFI_SPI",
+   "mux": 4,
+   "pin": "P9_3",
+   "signal": "SPI2_MOSI_B"
+  },
+  "WIFI_SPI.SCLK": {
+   "ball": "J5",
+   "group": "WIFI_SPI",
+   "mux": 3,
+   "pin": "P9_4",
+   "signal": "SPI2_SCLK_B"
+  },
+  "WIFI_nRESET": {
+   "ball": "J1",
+   "group": "GPIO",
+   "mux": 0,
+   "pin": "P8_7",
+   "signal": "GPIO8_7"
+  }
+ }
+}

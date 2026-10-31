@@ -1,0 +1,2224 @@
+{
+ "name": "Fiumara Labs AE3 SoM edge",
+ "pitch_mm": 1.0,
+ "pad_mm": 0.6,
+ "outline_mm": 35.0,
+ "pads": [
+  {
+   "num": 1,
+   "x": -16,
+   "y": -15,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 2,
+   "x": -16,
+   "y": -14,
+   "ring": "outer",
+   "side": "left",
+   "net": "VIN",
+   "type": "power_in"
+  },
+  {
+   "num": 3,
+   "x": -16,
+   "y": -13,
+   "ring": "outer",
+   "side": "left",
+   "net": "VIN",
+   "type": "power_in"
+  },
+  {
+   "num": 4,
+   "x": -16,
+   "y": -12,
+   "ring": "outer",
+   "side": "left",
+   "net": "VIN",
+   "type": "power_in"
+  },
+  {
+   "num": 5,
+   "x": -16,
+   "y": -11,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 6,
+   "x": -16,
+   "y": -10,
+   "ring": "outer",
+   "side": "left",
+   "net": "VREF_1V8",
+   "type": "power_out"
+  },
+  {
+   "num": 7,
+   "x": -16,
+   "y": -9,
+   "ring": "outer",
+   "side": "left",
+   "net": "EN",
+   "type": "bidirectional"
+  },
+  {
+   "num": 8,
+   "x": -16,
+   "y": -8,
+   "ring": "outer",
+   "side": "left",
+   "net": "STBY_N",
+   "type": "bidirectional"
+  },
+  {
+   "num": 9,
+   "x": -16,
+   "y": -7,
+   "ring": "outer",
+   "side": "left",
+   "net": "RESET_N",
+   "type": "bidirectional"
+  },
+  {
+   "num": 10,
+   "x": -16,
+   "y": -6,
+   "ring": "outer",
+   "side": "left",
+   "net": "WAKE_N",
+   "type": "bidirectional"
+  },
+  {
+   "num": 11,
+   "x": -16,
+   "y": -5,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 12,
+   "x": -16,
+   "y": -4,
+   "ring": "outer",
+   "side": "left",
+   "net": "CONSOLE_TX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 13,
+   "x": -16,
+   "y": -3,
+   "ring": "outer",
+   "side": "left",
+   "net": "CONSOLE_RX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 14,
+   "x": -16,
+   "y": -2,
+   "ring": "outer",
+   "side": "left",
+   "net": "SWDIO",
+   "type": "bidirectional"
+  },
+  {
+   "num": 15,
+   "x": -16,
+   "y": -1,
+   "ring": "outer",
+   "side": "left",
+   "net": "SWCLK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 16,
+   "x": -16,
+   "y": 0,
+   "ring": "outer",
+   "side": "left",
+   "net": "SWO",
+   "type": "bidirectional"
+  },
+  {
+   "num": 17,
+   "x": -16,
+   "y": 1,
+   "ring": "outer",
+   "side": "left",
+   "net": "TDI",
+   "type": "bidirectional"
+  },
+  {
+   "num": 18,
+   "x": -16,
+   "y": 2,
+   "ring": "outer",
+   "side": "left",
+   "net": "DBG_NRST",
+   "type": "bidirectional"
+  },
+  {
+   "num": 19,
+   "x": -16,
+   "y": 3,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 20,
+   "x": -16,
+   "y": 4,
+   "ring": "outer",
+   "side": "left",
+   "net": "USB_VBUS",
+   "type": "bidirectional"
+  },
+  {
+   "num": 21,
+   "x": -16,
+   "y": 5,
+   "ring": "outer",
+   "side": "left",
+   "net": "USB_ID",
+   "type": "bidirectional"
+  },
+  {
+   "num": 22,
+   "x": -16,
+   "y": 6,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 23,
+   "x": -16,
+   "y": 7,
+   "ring": "outer",
+   "side": "left",
+   "net": "USB_DP",
+   "type": "passive"
+  },
+  {
+   "num": 24,
+   "x": -16,
+   "y": 8,
+   "ring": "outer",
+   "side": "left",
+   "net": "USB_DN",
+   "type": "passive"
+  },
+  {
+   "num": 25,
+   "x": -16,
+   "y": 9,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 26,
+   "x": -16,
+   "y": 10,
+   "ring": "outer",
+   "side": "left",
+   "net": "WIFI_SWDIO",
+   "type": "bidirectional"
+  },
+  {
+   "num": 27,
+   "x": -16,
+   "y": 11,
+   "ring": "outer",
+   "side": "left",
+   "net": "WIFI_SWCLK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 28,
+   "x": -16,
+   "y": 12,
+   "ring": "outer",
+   "side": "left",
+   "net": "WIFI_LOG",
+   "type": "bidirectional"
+  },
+  {
+   "num": 29,
+   "x": -16,
+   "y": 13,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 30,
+   "x": -16,
+   "y": 14,
+   "ring": "outer",
+   "side": "left",
+   "net": "ANT",
+   "type": "passive"
+  },
+  {
+   "num": 31,
+   "x": -16,
+   "y": 15,
+   "ring": "outer",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 32,
+   "x": -15,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 33,
+   "x": -14,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 34,
+   "x": -13,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_VDD",
+   "type": "power_out"
+  },
+  {
+   "num": 35,
+   "x": -12,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_CLK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 36,
+   "x": -11,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 37,
+   "x": -10,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_CMD",
+   "type": "bidirectional"
+  },
+  {
+   "num": 38,
+   "x": -9,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_DAT0",
+   "type": "bidirectional"
+  },
+  {
+   "num": 39,
+   "x": -8,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_DAT1",
+   "type": "bidirectional"
+  },
+  {
+   "num": 40,
+   "x": -7,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_DAT2",
+   "type": "bidirectional"
+  },
+  {
+   "num": 41,
+   "x": -6,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_DAT3",
+   "type": "bidirectional"
+  },
+  {
+   "num": 42,
+   "x": -5,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "SD_CD",
+   "type": "bidirectional"
+  },
+  {
+   "num": 43,
+   "x": -4,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 44,
+   "x": -3,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "CAN_TXD",
+   "type": "bidirectional"
+  },
+  {
+   "num": 45,
+   "x": -2,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "CAN_RXD",
+   "type": "bidirectional"
+  },
+  {
+   "num": 46,
+   "x": -1,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "CAN_STB",
+   "type": "bidirectional"
+  },
+  {
+   "num": 47,
+   "x": 0,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "CANH",
+   "type": "passive"
+  },
+  {
+   "num": 48,
+   "x": 1,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "CANL",
+   "type": "passive"
+  },
+  {
+   "num": 49,
+   "x": 2,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 50,
+   "x": 3,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "ETH_LED_LINK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 51,
+   "x": 4,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "ETH_LED_ACT",
+   "type": "bidirectional"
+  },
+  {
+   "num": 52,
+   "x": 5,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 53,
+   "x": 6,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "ETH_TX_P",
+   "type": "passive"
+  },
+  {
+   "num": 54,
+   "x": 7,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "ETH_TX_N",
+   "type": "passive"
+  },
+  {
+   "num": 55,
+   "x": 8,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 56,
+   "x": 9,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 57,
+   "x": 10,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "ETH_RX_P",
+   "type": "passive"
+  },
+  {
+   "num": 58,
+   "x": 11,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "ETH_RX_N",
+   "type": "passive"
+  },
+  {
+   "num": 59,
+   "x": 12,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 60,
+   "x": 13,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "AOUT0",
+   "type": "passive"
+  },
+  {
+   "num": 61,
+   "x": 14,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "AOUT1",
+   "type": "passive"
+  },
+  {
+   "num": 62,
+   "x": 15,
+   "y": 16,
+   "ring": "outer",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 63,
+   "x": 16,
+   "y": 15,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 64,
+   "x": 16,
+   "y": 14,
+   "ring": "outer",
+   "side": "right",
+   "net": "AIN0",
+   "type": "passive"
+  },
+  {
+   "num": 65,
+   "x": 16,
+   "y": 13,
+   "ring": "outer",
+   "side": "right",
+   "net": "AIN1",
+   "type": "passive"
+  },
+  {
+   "num": 66,
+   "x": 16,
+   "y": 12,
+   "ring": "outer",
+   "side": "right",
+   "net": "AIN2",
+   "type": "passive"
+  },
+  {
+   "num": 67,
+   "x": 16,
+   "y": 11,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 68,
+   "x": 16,
+   "y": 10,
+   "ring": "outer",
+   "side": "right",
+   "net": "AIN3",
+   "type": "passive"
+  },
+  {
+   "num": 69,
+   "x": 16,
+   "y": 9,
+   "ring": "outer",
+   "side": "right",
+   "net": "AIN4",
+   "type": "passive"
+  },
+  {
+   "num": 70,
+   "x": 16,
+   "y": 8,
+   "ring": "outer",
+   "side": "right",
+   "net": "AIN5",
+   "type": "passive"
+  },
+  {
+   "num": 71,
+   "x": 16,
+   "y": 7,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 72,
+   "x": 16,
+   "y": 6,
+   "ring": "outer",
+   "side": "right",
+   "net": "PWM0",
+   "type": "bidirectional"
+  },
+  {
+   "num": 73,
+   "x": 16,
+   "y": 5,
+   "ring": "outer",
+   "side": "right",
+   "net": "PWM1",
+   "type": "bidirectional"
+  },
+  {
+   "num": 74,
+   "x": 16,
+   "y": 4,
+   "ring": "outer",
+   "side": "right",
+   "net": "PWM2",
+   "type": "bidirectional"
+  },
+  {
+   "num": 75,
+   "x": 16,
+   "y": 3,
+   "ring": "outer",
+   "side": "right",
+   "net": "PWM3",
+   "type": "bidirectional"
+  },
+  {
+   "num": 76,
+   "x": 16,
+   "y": 2,
+   "ring": "outer",
+   "side": "right",
+   "net": "PWM4",
+   "type": "bidirectional"
+  },
+  {
+   "num": 77,
+   "x": 16,
+   "y": 1,
+   "ring": "outer",
+   "side": "right",
+   "net": "PWM5",
+   "type": "bidirectional"
+  },
+  {
+   "num": 78,
+   "x": 16,
+   "y": 0,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 79,
+   "x": 16,
+   "y": -1,
+   "ring": "outer",
+   "side": "right",
+   "net": "QEC0_A",
+   "type": "bidirectional"
+  },
+  {
+   "num": 80,
+   "x": 16,
+   "y": -2,
+   "ring": "outer",
+   "side": "right",
+   "net": "QEC0_B",
+   "type": "bidirectional"
+  },
+  {
+   "num": 81,
+   "x": 16,
+   "y": -3,
+   "ring": "outer",
+   "side": "right",
+   "net": "QEC1_A",
+   "type": "bidirectional"
+  },
+  {
+   "num": 82,
+   "x": 16,
+   "y": -4,
+   "ring": "outer",
+   "side": "right",
+   "net": "QEC1_B",
+   "type": "bidirectional"
+  },
+  {
+   "num": 83,
+   "x": 16,
+   "y": -5,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 84,
+   "x": 16,
+   "y": -6,
+   "ring": "outer",
+   "side": "right",
+   "net": "CSI_CLK_P",
+   "type": "passive"
+  },
+  {
+   "num": 85,
+   "x": 16,
+   "y": -7,
+   "ring": "outer",
+   "side": "right",
+   "net": "CSI_CLK_N",
+   "type": "passive"
+  },
+  {
+   "num": 86,
+   "x": 16,
+   "y": -8,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 87,
+   "x": 16,
+   "y": -9,
+   "ring": "outer",
+   "side": "right",
+   "net": "CSI_D0_P",
+   "type": "passive"
+  },
+  {
+   "num": 88,
+   "x": 16,
+   "y": -10,
+   "ring": "outer",
+   "side": "right",
+   "net": "CSI_D0_N",
+   "type": "passive"
+  },
+  {
+   "num": 89,
+   "x": 16,
+   "y": -11,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 90,
+   "x": 16,
+   "y": -12,
+   "ring": "outer",
+   "side": "right",
+   "net": "CSI_D1_P",
+   "type": "passive"
+  },
+  {
+   "num": 91,
+   "x": 16,
+   "y": -13,
+   "ring": "outer",
+   "side": "right",
+   "net": "CSI_D1_N",
+   "type": "passive"
+  },
+  {
+   "num": 92,
+   "x": 16,
+   "y": -14,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 93,
+   "x": 16,
+   "y": -15,
+   "ring": "outer",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 94,
+   "x": 15,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 95,
+   "x": 14,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "DSI_CLK_P",
+   "type": "passive"
+  },
+  {
+   "num": 96,
+   "x": 13,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "DSI_CLK_N",
+   "type": "passive"
+  },
+  {
+   "num": 97,
+   "x": 12,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 98,
+   "x": 11,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "DSI_D0_P",
+   "type": "passive"
+  },
+  {
+   "num": 99,
+   "x": 10,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "DSI_D0_N",
+   "type": "passive"
+  },
+  {
+   "num": 100,
+   "x": 9,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 101,
+   "x": 8,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "DSI_D1_P",
+   "type": "passive"
+  },
+  {
+   "num": 102,
+   "x": 7,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "DSI_D1_N",
+   "type": "passive"
+  },
+  {
+   "num": 103,
+   "x": 6,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 104,
+   "x": 5,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "SPI0_SCK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 105,
+   "x": 4,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "SPI0_MOSI",
+   "type": "bidirectional"
+  },
+  {
+   "num": 106,
+   "x": 3,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "SPI0_MISO",
+   "type": "bidirectional"
+  },
+  {
+   "num": 107,
+   "x": 2,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "SPI0_CS0",
+   "type": "bidirectional"
+  },
+  {
+   "num": 108,
+   "x": 1,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "SPI0_CS1",
+   "type": "bidirectional"
+  },
+  {
+   "num": 109,
+   "x": 0,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 110,
+   "x": -1,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "I2S0_MCLK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 111,
+   "x": -2,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "I2S0_BCLK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 112,
+   "x": -3,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "I2S0_LRCLK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 113,
+   "x": -4,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "I2S0_DIN",
+   "type": "bidirectional"
+  },
+  {
+   "num": 114,
+   "x": -5,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "I2S0_DOUT",
+   "type": "bidirectional"
+  },
+  {
+   "num": 115,
+   "x": -6,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 116,
+   "x": -7,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "PDM_CLK0",
+   "type": "bidirectional"
+  },
+  {
+   "num": 117,
+   "x": -8,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "PDM_DAT0",
+   "type": "bidirectional"
+  },
+  {
+   "num": 118,
+   "x": -9,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "PDM_CLK1",
+   "type": "bidirectional"
+  },
+  {
+   "num": 119,
+   "x": -10,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "PDM_DAT1",
+   "type": "bidirectional"
+  },
+  {
+   "num": 120,
+   "x": -11,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 121,
+   "x": -12,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "I3C0_SCL",
+   "type": "bidirectional"
+  },
+  {
+   "num": 122,
+   "x": -13,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "I3C0_SDA",
+   "type": "bidirectional"
+  },
+  {
+   "num": 123,
+   "x": -14,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 124,
+   "x": -15,
+   "y": -16,
+   "ring": "outer",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 125,
+   "x": -15,
+   "y": -15,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 126,
+   "x": -15,
+   "y": -14,
+   "ring": "inner",
+   "side": "left",
+   "net": "VIN",
+   "type": "power_in"
+  },
+  {
+   "num": 127,
+   "x": -15,
+   "y": -13,
+   "ring": "inner",
+   "side": "left",
+   "net": "VIN",
+   "type": "power_in"
+  },
+  {
+   "num": 128,
+   "x": -15,
+   "y": -12,
+   "ring": "inner",
+   "side": "left",
+   "net": "VIN",
+   "type": "power_in"
+  },
+  {
+   "num": 129,
+   "x": -15,
+   "y": -11,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 130,
+   "x": -15,
+   "y": -10,
+   "ring": "inner",
+   "side": "left",
+   "net": "VREF_1V8",
+   "type": "power_out"
+  },
+  {
+   "num": 131,
+   "x": -15,
+   "y": -9,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 132,
+   "x": -15,
+   "y": -8,
+   "ring": "inner",
+   "side": "left",
+   "net": "I2C0_SCL",
+   "type": "bidirectional"
+  },
+  {
+   "num": 133,
+   "x": -15,
+   "y": -7,
+   "ring": "inner",
+   "side": "left",
+   "net": "I2C0_SDA",
+   "type": "bidirectional"
+  },
+  {
+   "num": 134,
+   "x": -15,
+   "y": -6,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 135,
+   "x": -15,
+   "y": -5,
+   "ring": "inner",
+   "side": "left",
+   "net": "I2C1_SCL",
+   "type": "bidirectional"
+  },
+  {
+   "num": 136,
+   "x": -15,
+   "y": -4,
+   "ring": "inner",
+   "side": "left",
+   "net": "I2C1_SDA",
+   "type": "bidirectional"
+  },
+  {
+   "num": 137,
+   "x": -15,
+   "y": -3,
+   "ring": "inner",
+   "side": "left",
+   "net": "UART0_TX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 138,
+   "x": -15,
+   "y": -2,
+   "ring": "inner",
+   "side": "left",
+   "net": "UART0_RX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 139,
+   "x": -15,
+   "y": -1,
+   "ring": "inner",
+   "side": "left",
+   "net": "UART0_RTS",
+   "type": "bidirectional"
+  },
+  {
+   "num": 140,
+   "x": -15,
+   "y": 0,
+   "ring": "inner",
+   "side": "left",
+   "net": "UART0_CTS",
+   "type": "bidirectional"
+  },
+  {
+   "num": 141,
+   "x": -15,
+   "y": 1,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 142,
+   "x": -15,
+   "y": 2,
+   "ring": "inner",
+   "side": "left",
+   "net": "GPIO0",
+   "type": "bidirectional"
+  },
+  {
+   "num": 143,
+   "x": -15,
+   "y": 3,
+   "ring": "inner",
+   "side": "left",
+   "net": "GPIO1",
+   "type": "bidirectional"
+  },
+  {
+   "num": 144,
+   "x": -15,
+   "y": 4,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 145,
+   "x": -15,
+   "y": 5,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 146,
+   "x": -15,
+   "y": 6,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 147,
+   "x": -15,
+   "y": 7,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 148,
+   "x": -15,
+   "y": 8,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 149,
+   "x": -15,
+   "y": 9,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 150,
+   "x": -15,
+   "y": 10,
+   "ring": "inner",
+   "side": "left",
+   "net": "GPIO2",
+   "type": "bidirectional"
+  },
+  {
+   "num": 151,
+   "x": -15,
+   "y": 11,
+   "ring": "inner",
+   "side": "left",
+   "net": "GPIO3",
+   "type": "bidirectional"
+  },
+  {
+   "num": 152,
+   "x": -15,
+   "y": 12,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 153,
+   "x": -15,
+   "y": 13,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 154,
+   "x": -15,
+   "y": 14,
+   "ring": "inner",
+   "side": "left",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 155,
+   "x": -15,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 156,
+   "x": -14,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 157,
+   "x": -13,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 158,
+   "x": -12,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 159,
+   "x": -11,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 160,
+   "x": -10,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "UART1_TX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 161,
+   "x": -9,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "UART1_RX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 162,
+   "x": -8,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "UART2_TX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 163,
+   "x": -7,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "UART2_RX",
+   "type": "bidirectional"
+  },
+  {
+   "num": 164,
+   "x": -6,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO4",
+   "type": "bidirectional"
+  },
+  {
+   "num": 165,
+   "x": -5,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO5",
+   "type": "bidirectional"
+  },
+  {
+   "num": 166,
+   "x": -4,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 167,
+   "x": -3,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO6",
+   "type": "bidirectional"
+  },
+  {
+   "num": 168,
+   "x": -2,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO7",
+   "type": "bidirectional"
+  },
+  {
+   "num": 169,
+   "x": -1,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO8",
+   "type": "bidirectional"
+  },
+  {
+   "num": 170,
+   "x": 0,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 171,
+   "x": 1,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 172,
+   "x": 2,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO9",
+   "type": "bidirectional"
+  },
+  {
+   "num": 173,
+   "x": 3,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO10",
+   "type": "bidirectional"
+  },
+  {
+   "num": 174,
+   "x": 4,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 175,
+   "x": 5,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 176,
+   "x": 6,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 177,
+   "x": 7,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 178,
+   "x": 8,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 179,
+   "x": 9,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 180,
+   "x": 10,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 181,
+   "x": 11,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 182,
+   "x": 12,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 183,
+   "x": 13,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GPIO11",
+   "type": "bidirectional"
+  },
+  {
+   "num": 184,
+   "x": 14,
+   "y": 15,
+   "ring": "inner",
+   "side": "bottom",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 185,
+   "x": 15,
+   "y": 15,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 186,
+   "x": 15,
+   "y": 14,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 187,
+   "x": 15,
+   "y": 13,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 188,
+   "x": 15,
+   "y": 12,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 189,
+   "x": 15,
+   "y": 11,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 190,
+   "x": 15,
+   "y": 10,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO12",
+   "type": "bidirectional"
+  },
+  {
+   "num": 191,
+   "x": 15,
+   "y": 9,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO13",
+   "type": "bidirectional"
+  },
+  {
+   "num": 192,
+   "x": 15,
+   "y": 8,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO14",
+   "type": "bidirectional"
+  },
+  {
+   "num": 193,
+   "x": 15,
+   "y": 7,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 194,
+   "x": 15,
+   "y": 6,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO15",
+   "type": "bidirectional"
+  },
+  {
+   "num": 195,
+   "x": 15,
+   "y": 5,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO16",
+   "type": "bidirectional"
+  },
+  {
+   "num": 196,
+   "x": 15,
+   "y": 4,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO17",
+   "type": "bidirectional"
+  },
+  {
+   "num": 197,
+   "x": 15,
+   "y": 3,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO18",
+   "type": "bidirectional"
+  },
+  {
+   "num": 198,
+   "x": 15,
+   "y": 2,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO19",
+   "type": "bidirectional"
+  },
+  {
+   "num": 199,
+   "x": 15,
+   "y": 1,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO20",
+   "type": "bidirectional"
+  },
+  {
+   "num": 200,
+   "x": 15,
+   "y": 0,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 201,
+   "x": 15,
+   "y": -1,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO21",
+   "type": "bidirectional"
+  },
+  {
+   "num": 202,
+   "x": 15,
+   "y": -2,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO22",
+   "type": "bidirectional"
+  },
+  {
+   "num": 203,
+   "x": 15,
+   "y": -3,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO23",
+   "type": "bidirectional"
+  },
+  {
+   "num": 204,
+   "x": 15,
+   "y": -4,
+   "ring": "inner",
+   "side": "right",
+   "net": "GPIO24",
+   "type": "bidirectional"
+  },
+  {
+   "num": 205,
+   "x": 15,
+   "y": -5,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 206,
+   "x": 15,
+   "y": -6,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 207,
+   "x": 15,
+   "y": -7,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 208,
+   "x": 15,
+   "y": -8,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 209,
+   "x": 15,
+   "y": -9,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 210,
+   "x": 15,
+   "y": -10,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 211,
+   "x": 15,
+   "y": -11,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 212,
+   "x": 15,
+   "y": -12,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 213,
+   "x": 15,
+   "y": -13,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 214,
+   "x": 15,
+   "y": -14,
+   "ring": "inner",
+   "side": "right",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 215,
+   "x": 15,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 216,
+   "x": 14,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 217,
+   "x": 13,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 218,
+   "x": 12,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 219,
+   "x": 11,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 220,
+   "x": 10,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 221,
+   "x": 9,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 222,
+   "x": 8,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 223,
+   "x": 7,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 224,
+   "x": 6,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 225,
+   "x": 5,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "SPI1_SCK",
+   "type": "bidirectional"
+  },
+  {
+   "num": 226,
+   "x": 4,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "SPI1_MOSI",
+   "type": "bidirectional"
+  },
+  {
+   "num": 227,
+   "x": 3,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "SPI1_MISO",
+   "type": "bidirectional"
+  },
+  {
+   "num": 228,
+   "x": 2,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "SPI1_CS0",
+   "type": "bidirectional"
+  },
+  {
+   "num": 229,
+   "x": 1,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 230,
+   "x": 0,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GPIO25",
+   "type": "bidirectional"
+  },
+  {
+   "num": 231,
+   "x": -1,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GPIO26",
+   "type": "bidirectional"
+  },
+  {
+   "num": 232,
+   "x": -2,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GPIO27",
+   "type": "bidirectional"
+  },
+  {
+   "num": 233,
+   "x": -3,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GPIO28",
+   "type": "bidirectional"
+  },
+  {
+   "num": 234,
+   "x": -4,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GPIO29",
+   "type": "bidirectional"
+  },
+  {
+   "num": 235,
+   "x": -5,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 236,
+   "x": -6,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 237,
+   "x": -7,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 238,
+   "x": -8,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 239,
+   "x": -9,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 240,
+   "x": -10,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 241,
+   "x": -11,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 242,
+   "x": -12,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 243,
+   "x": -13,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  },
+  {
+   "num": 244,
+   "x": -14,
+   "y": -15,
+   "ring": "inner",
+   "side": "top",
+   "net": "GND",
+   "type": "power_in"
+  }
+ ],
+ "other": {
+  "VIN": "5 V input: PMIC VSYS/PVIN, CAN transceiver VCC",
+  "VREF_1V8": "PMIC LDO1, 1.8 V I/O reference output for carrier level shifters (<= 100 mA)",
+  "EN": "PMIC EN/PB/VSENSE; 1 MOhm pull-up to VIN, 5 V tolerant, open-drain to turn the module off",
+  "STBY_N": "PMIC MODE/STBY, pull-up to 1V8",
+  "RESET_N": "PMIC nRSTOUT and Alif POR_N, open-drain wired-AND, pull-up to 1V8",
+  "ETH_TX_P": "PHY TD_P",
+  "ETH_TX_N": "PHY TD_M",
+  "ETH_RX_P": "PHY RD_P",
+  "ETH_RX_N": "PHY RD_M",
+  "ETH_LED_LINK": "PHY LED_0",
+  "ETH_LED_ACT": "PHY LED_1",
+  "ANT": "Wi-Fi module ANT0, 50 Ohm (DNP U.FL alternative on the module)",
+  "SD_VDD": "3.3 V SD card supply, load switch controlled by SD_PWR_EN",
+  "CANH": "CAN transceiver CANH (assembly option)",
+  "CANL": "CAN transceiver CANL (assembly option)",
+  "WIFI_SWDIO": "Wi-Fi module SWDIO (factory programming)",
+  "WIFI_SWCLK": "Wi-Fi module SWCLK (factory programming)",
+  "WIFI_LOG": "Wi-Fi module LOGGER UART output"
+ }
+}

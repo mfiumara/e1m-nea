@@ -1,0 +1,5437 @@
+{
+ "A1": {
+  "name": "VDD_PLL_0V8",
+  "type": "power_in"
+ },
+ "A2": {
+  "name": "VDD_SX_0V8",
+  "type": "power_in"
+ },
+ "A3": {
+  "name": "HFXO_N",
+  "type": "output"
+ },
+ "A4": {
+  "name": "HFXO_P",
+  "type": "input"
+ },
+ "A5": {
+  "name": "VDD_IO_1V8",
+  "type": "power_in"
+ },
+ "A6": {
+  "name": "P3_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SCLKN_B",
+    "O"
+   ],
+   [
+    2,
+    "UART4_TX_A",
+    "O"
+   ],
+   [
+    3,
+    "PDM_C0_B",
+    "O"
+   ],
+   [
+    4,
+    "I2S0_WS_A",
+    "O"
+   ],
+   [
+    5,
+    "QEC0_Y_A",
+    "I"
+   ],
+   [
+    6,
+    "LPCAM_D5_B",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D5_A",
+    "I"
+   ]
+  ]
+ },
+ "A7": {
+  "name": "P8_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_3",
+    "IO"
+   ],
+   [
+    1,
+    "I2S2_SCLK_A",
+    "O"
+   ],
+   [
+    2,
+    "SPI1_MISO_B",
+    "IO"
+   ],
+   [
+    3,
+    "FAULT3_B",
+    "I"
+   ],
+   [
+    4,
+    "LPCAM_D3_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_D3_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D3_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D3_B",
+    "I"
+   ]
+  ]
+ },
+ "A8": {
+  "name": "P7_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO7_3",
+    "IO"
+   ],
+   [
+    2,
+    "UART3_RTS_B",
+    "O"
+   ],
+   [
+    3,
+    "CMP0_OUT_A",
+    "O"
+   ],
+   [
+    4,
+    "SPI0_SS0_C",
+    "IO"
+   ],
+   [
+    5,
+    "I2C1_SCL_C",
+    "IO"
+   ],
+   [
+    6,
+    "UT9_T1_B",
+    "IO"
+   ],
+   [
+    7,
+    "CAN_STBY_A",
+    "O"
+   ]
+  ]
+ },
+ "A9": {
+  "name": "P6_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D7_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART0_RTS_B",
+    "O"
+   ],
+   [
+    3,
+    "PDM_C2_A",
+    "O"
+   ],
+   [
+    4,
+    "SPI1_SS3_B",
+    "O"
+   ],
+   [
+    5,
+    "UT7_T1_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D7_D",
+    "IO"
+   ],
+   [
+    7,
+    "ETH_CRS_DV_A",
+    "I"
+   ]
+  ]
+ },
+ "A10": {
+  "name": "P12_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_5",
+    "IO"
+   ],
+   [
+    2,
+    "SPI3_MOSI_A",
+    "IO"
+   ],
+   [
+    3,
+    "UT10_T1_C",
+    "IO"
+   ],
+   [
+    4,
+    "CAN_TXD_C",
+    "O"
+   ],
+   [
+    5,
+    "CDC_D13_B",
+    "O"
+   ]
+  ]
+ },
+ "A11": {
+  "name": "P6_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D2_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART2_CTS_A",
+    "I"
+   ],
+   [
+    4,
+    "PDM_D1_C",
+    "I"
+   ],
+   [
+    5,
+    "UT5_T0_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D2_D",
+    "IO"
+   ],
+   [
+    7,
+    "ETH_TXEN_A",
+    "O"
+   ]
+  ]
+ },
+ "A12": {
+  "name": "P6_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D0_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART4_DE_A",
+    "O"
+   ],
+   [
+    3,
+    "PDM_D0_C",
+    "I"
+   ],
+   [
+    4,
+    "UT4_T0_B",
+    "IO"
+   ],
+   [
+    5,
+    "SD_D0_D",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_TXD0_A",
+    "O"
+   ]
+  ]
+ },
+ "A13": {
+  "name": "SEUART_TX",
+  "type": "output"
+ },
+ "A14": {
+  "name": "SEUART_RX",
+  "type": "input"
+ },
+ "A15": {
+  "name": "P13_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D7_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_WS_C",
+    "O"
+   ],
+   [
+    3,
+    "QEC2_Y_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_D7_B",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D23_B",
+    "O"
+   ]
+  ]
+ },
+ "A16": {
+  "name": "P5_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_RXDS_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART4_RX_C",
+    "I"
+   ],
+   [
+    3,
+    "PDM_D2_A",
+    "I"
+   ],
+   [
+    4,
+    "SPI0_MISO_B",
+    "IO"
+   ],
+   [
+    5,
+    "I2C2_SDA_B",
+    "IO"
+   ],
+   [
+    6,
+    "UT0_T0_B",
+    "IO"
+   ],
+   [
+    7,
+    "SD_D0_A",
+    "IO"
+   ]
+  ]
+ },
+ "A17": {
+  "name": "P13_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D5_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_SDO_C",
+    "O"
+   ],
+   [
+    3,
+    "QEC1_Z_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_D5_B",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D21_B",
+    "O"
+   ]
+  ]
+ },
+ "A18": {
+  "name": "P4_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_6",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TDI",
+    "I"
+   ],
+   [
+    2,
+    "SPI2_SS1_A",
+    "O"
+   ],
+   [
+    3,
+    "FAULT2_A",
+    "I"
+   ]
+  ]
+ },
+ "A19": {
+  "name": "P4_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_5",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TMS",
+    "I"
+   ],
+   [
+    2,
+    "SPI2_SS0_A",
+    "IO"
+   ],
+   [
+    3,
+    "FAULT1_A",
+    "I"
+   ]
+  ]
+ },
+ "B1": {
+  "name": "NC",
+  "type": "no_connect"
+ },
+ "B2": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "B3": {
+  "name": "P7_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO7_1",
+    "IO"
+   ],
+   [
+    2,
+    "CMP2_OUT_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI0_MOSI_C",
+    "IO"
+   ],
+   [
+    4,
+    "I2C0_SCL_C",
+    "IO"
+   ],
+   [
+    5,
+    "UT8_T1_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_CLK_A",
+    "O"
+   ],
+   [
+    7,
+    "CAN_TXD_A",
+    "O"
+   ]
+  ]
+ },
+ "B4": {
+  "name": "P8_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_4",
+    "IO"
+   ],
+   [
+    1,
+    "I2S2_WS_A",
+    "O"
+   ],
+   [
+    2,
+    "SPI1_MOSI_B",
+    "IO"
+   ],
+   [
+    3,
+    "QEC0_X_B",
+    "I"
+   ],
+   [
+    4,
+    "LPCAM_D4_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_D4_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D4_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D4_B",
+    "I"
+   ]
+  ]
+ },
+ "B5": {
+  "name": "VDD_CORE_0V8",
+  "type": "power_in"
+ },
+ "B6": {
+  "name": "P3_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SCLK_B",
+    "O"
+   ],
+   [
+    2,
+    "UART4_RX_A",
+    "I"
+   ],
+   [
+    3,
+    "PDM_D0_B",
+    "I"
+   ],
+   [
+    4,
+    "I2S0_SCLK_A",
+    "O"
+   ],
+   [
+    5,
+    "QEC0_X_A",
+    "I"
+   ],
+   [
+    6,
+    "LPCAM_D4_B",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D4_A",
+    "I"
+   ]
+  ]
+ },
+ "B7": {
+  "name": "P8_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SCLKN_C",
+    "O"
+   ],
+   [
+    2,
+    "AUDIO_CLK_A",
+    "I"
+   ],
+   [
+    3,
+    "FAULT0_B",
+    "I"
+   ],
+   [
+    4,
+    "LPCAM_D0_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_D0_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D0_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D0_B",
+    "I"
+   ]
+  ]
+ },
+ "B8": {
+  "name": "P7_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO7_0",
+    "IO"
+   ],
+   [
+    2,
+    "CMP3_OUT_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI0_MISO_C",
+    "IO"
+   ],
+   [
+    4,
+    "I2C0_SDA_C",
+    "IO"
+   ],
+   [
+    5,
+    "UT8_T0_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_CMD_A",
+    "IO"
+   ],
+   [
+    7,
+    "CAN_RXD_A",
+    "I"
+   ]
+  ]
+ },
+ "B9": {
+  "name": "P14_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SCLK_B",
+    "O"
+   ],
+   [
+    2,
+    "UART6_RX_C",
+    "I"
+   ],
+   [
+    3,
+    "QEC2_Z_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_CMD_B",
+    "IO"
+   ]
+  ]
+ },
+ "B10": {
+  "name": "P6_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D3_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART2_RTS_A",
+    "O"
+   ],
+   [
+    4,
+    "PDM_C1_C",
+    "O"
+   ],
+   [
+    5,
+    "UT5_T1_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D3_D",
+    "IO"
+   ],
+   [
+    7,
+    "ETH_IRQ_A",
+    "I"
+   ]
+  ]
+ },
+ "B11": {
+  "name": "P5_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SS0_C",
+    "O"
+   ],
+   [
+    2,
+    "UART1_RTS_B",
+    "O"
+   ],
+   [
+    3,
+    "I2C2_SDA_C",
+    "IO"
+   ],
+   [
+    4,
+    "UT3_T1_B",
+    "IO"
+   ],
+   [
+    5,
+    "SD_D7_A",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_RST_A",
+    "O"
+   ]
+  ]
+ },
+ "B12": {
+  "name": "P5_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_6",
+    "IO"
+   ],
+   [
+    2,
+    "UART1_CTS_B",
+    "I"
+   ],
+   [
+    3,
+    "I2C2_SCL_C",
+    "IO"
+   ],
+   [
+    4,
+    "UT3_T0_B",
+    "IO"
+   ],
+   [
+    5,
+    "SD_D6_A",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_RXD1_A",
+    "I"
+   ],
+   [
+    7,
+    "CDC_VSYNC_A",
+    "O"
+   ]
+  ]
+ },
+ "B13": {
+  "name": "P5_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SCLK_A",
+    "O"
+   ],
+   [
+    2,
+    "UART5_TX_C",
+    "O"
+   ],
+   [
+    3,
+    "SPI0_SCLK_B",
+    "IO"
+   ],
+   [
+    4,
+    "LPI2C_SDA_B",
+    "IO"
+   ],
+   [
+    5,
+    "UT1_T1_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D3_A",
+    "IO"
+   ],
+   [
+    7,
+    "CDC_PCLK_A",
+    "O"
+   ]
+  ]
+ },
+ "B14": {
+  "name": "P5_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SS0_A",
+    "O"
+   ],
+   [
+    2,
+    "UART4_TX_C",
+    "O"
+   ],
+   [
+    3,
+    "PDM_D3_A",
+    "I"
+   ],
+   [
+    4,
+    "SPI0_MOSI_B",
+    "IO"
+   ],
+   [
+    5,
+    "I2C2_SCL_B",
+    "IO"
+   ],
+   [
+    6,
+    "UT0_T1_B",
+    "IO"
+   ],
+   [
+    7,
+    "SD_D1_A",
+    "IO"
+   ]
+  ]
+ },
+ "B15": {
+  "name": "P13_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_6",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D6_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_SCLK_C",
+    "O"
+   ],
+   [
+    3,
+    "QEC2_X_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_D6_B",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D22_B",
+    "O"
+   ]
+  ]
+ },
+ "B16": {
+  "name": "P4_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_7",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TDO",
+    "O"
+   ],
+   [
+    2,
+    "SPI2_SS2_A",
+    "O"
+   ],
+   [
+    3,
+    "FAULT3_A",
+    "I"
+   ]
+  ]
+ },
+ "B17": {
+  "name": "P4_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_4",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TCK",
+    "I"
+   ],
+   [
+    2,
+    "I2S0_WS_B",
+    "O"
+   ],
+   [
+    3,
+    "SPI2_SCLK_A",
+    "IO"
+   ],
+   [
+    4,
+    "FAULT0_A",
+    "I"
+   ]
+  ]
+ },
+ "B18": {
+  "name": "P4_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_3",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TDATA3",
+    "O"
+   ],
+   [
+    3,
+    "I2S0_SCLK_B",
+    "O"
+   ],
+   [
+    4,
+    "SPI2_MOSI_A",
+    "IO"
+   ],
+   [
+    5,
+    "QEC3_Z_A",
+    "I"
+   ],
+   [
+    6,
+    "SD_RST_D",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D15_A",
+    "I"
+   ]
+  ]
+ },
+ "B19": {
+  "name": "P4_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_1",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TDATA1",
+    "O"
+   ],
+   [
+    2,
+    "I2S0_SDI_B",
+    "I"
+   ],
+   [
+    3,
+    "SPI1_SS3_A",
+    "O"
+   ],
+   [
+    4,
+    "QEC3_X_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_CLK_D",
+    "O"
+   ],
+   [
+    6,
+    "CDC_HSYNC_B",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D13_A",
+    "I"
+   ]
+  ]
+ },
+ "C1": {
+  "name": "NC",
+  "type": "no_connect"
+ },
+ "C2": {
+  "name": "P8_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_1",
+    "IO"
+   ],
+   [
+    1,
+    "I2S2_SDI_A",
+    "I"
+   ],
+   [
+    2,
+    "FAULT1_B",
+    "I"
+   ],
+   [
+    3,
+    "LPCAM_D1_A",
+    "I"
+   ],
+   [
+    4,
+    "SD_D1_C",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D1_A",
+    "O"
+   ],
+   [
+    6,
+    "CAM_D1_B",
+    "I"
+   ]
+  ]
+ },
+ "C3": {
+  "name": "P8_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_2",
+    "IO"
+   ],
+   [
+    1,
+    "I2S2_SDO_A",
+    "O"
+   ],
+   [
+    2,
+    "SPI0_SS3_B",
+    "O"
+   ],
+   [
+    3,
+    "FAULT2_B",
+    "I"
+   ],
+   [
+    4,
+    "LPCAM_D2_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_D2_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D2_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D2_B",
+    "I"
+   ]
+  ]
+ },
+ "C18": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "C19": {
+  "name": "P4_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_2",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TDATA2",
+    "O"
+   ],
+   [
+    3,
+    "I2S0_SDO_B",
+    "O"
+   ],
+   [
+    4,
+    "SPI2_MISO_A",
+    "IO"
+   ],
+   [
+    5,
+    "QEC3_Y_A",
+    "I"
+   ],
+   [
+    6,
+    "SD_CMD_D",
+    "IO"
+   ],
+   [
+    7,
+    "CAM_D14_A",
+    "I"
+   ]
+  ]
+ },
+ "D1": {
+  "name": "P7_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO7_2",
+    "IO"
+   ],
+   [
+    2,
+    "UART3_CTS_B",
+    "I"
+   ],
+   [
+    3,
+    "CMP1_OUT_A",
+    "O"
+   ],
+   [
+    4,
+    "SPI0_SCLK_C",
+    "IO"
+   ],
+   [
+    5,
+    "I2C1_SDA_C",
+    "IO"
+   ],
+   [
+    6,
+    "UT9_T0_B",
+    "IO"
+   ],
+   [
+    7,
+    "SD_RST_A",
+    "O"
+   ]
+  ]
+ },
+ "D2": {
+  "name": "P12_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_RXDS_B",
+    "IO"
+   ],
+   [
+    3,
+    "SPI3_SS0_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT11_T1_C",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D15_B",
+    "O"
+   ]
+  ]
+ },
+ "D18": {
+  "name": "P12_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SS0_C",
+    "O"
+   ],
+   [
+    2,
+    "UART4_DE_B",
+    "O"
+   ],
+   [
+    3,
+    "I2S1_WS_B",
+    "O"
+   ],
+   [
+    4,
+    "UT9_T1_C",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D11_B",
+    "O"
+   ]
+  ]
+ },
+ "D19": {
+  "name": "VDD_IO_1V8",
+  "type": "power_in"
+ },
+ "E1": {
+  "name": "VDD_CORE_0V8",
+  "type": "power_in"
+ },
+ "E2": {
+  "name": "P3_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SS0_B",
+    "O"
+   ],
+   [
+    2,
+    "PDM_D1_B",
+    "I"
+   ],
+   [
+    3,
+    "I2S1_SDI_A",
+    "I"
+   ],
+   [
+    4,
+    "I3C_SDA_C",
+    "IO"
+   ],
+   [
+    5,
+    "QEC0_Z_A",
+    "I"
+   ],
+   [
+    6,
+    "LPCAM_D6_B",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D6_A",
+    "I"
+   ]
+  ]
+ },
+ "E5": {
+  "name": "P12_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_6",
+    "IO"
+   ],
+   [
+    2,
+    "SPI3_SCLK_A",
+    "IO"
+   ],
+   [
+    3,
+    "UT11_T0_C",
+    "IO"
+   ],
+   [
+    4,
+    "CAN_STBY_C",
+    "O"
+   ],
+   [
+    5,
+    "CDC_D14_B",
+    "O"
+   ]
+  ]
+ },
+ "E6": {
+  "name": "P6_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_6",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D6_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART0_CTS_B",
+    "I"
+   ],
+   [
+    4,
+    "SPI1_SS2_B",
+    "O"
+   ],
+   [
+    5,
+    "UT7_T0_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D6_D",
+    "IO"
+   ],
+   [
+    7,
+    "ETH_MDC_A",
+    "O"
+   ]
+  ]
+ },
+ "E7": {
+  "name": "P6_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D5_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART2_RTS_B",
+    "O"
+   ],
+   [
+    4,
+    "SPI1_SS1_B",
+    "O"
+   ],
+   [
+    5,
+    "UT6_T1_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D5_D",
+    "IO"
+   ],
+   [
+    7,
+    "ETH_MDIO_A",
+    "IO"
+   ]
+  ]
+ },
+ "E8": {
+  "name": "P6_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D4_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART2_CTS_B",
+    "I"
+   ],
+   [
+    4,
+    "SPI1_SS0_B",
+    "IO"
+   ],
+   [
+    5,
+    "UT6_T0_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D4_D",
+    "IO"
+   ],
+   [
+    7,
+    "ETH_REFCLK_A",
+    "IO"
+   ]
+  ]
+ },
+ "E9": {
+  "name": "P6_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO6_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D1_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART5_DE_A",
+    "O"
+   ],
+   [
+    3,
+    "PDM_C0_C",
+    "O"
+   ],
+   [
+    4,
+    "UT4_T1_B",
+    "IO"
+   ],
+   [
+    5,
+    "SD_D1_D",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_TXD1_A",
+    "O"
+   ]
+  ]
+ },
+ "E10": {
+  "name": "P5_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SCLK_C",
+    "O"
+   ],
+   [
+    2,
+    "UART3_RTS_A",
+    "O"
+   ],
+   [
+    3,
+    "PDM_D3_B",
+    "I"
+   ],
+   [
+    4,
+    "UT2_T1_B",
+    "IO"
+   ],
+   [
+    5,
+    "SD_D5_A",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_RXD0_A",
+    "I"
+   ],
+   [
+    7,
+    "CDC_HSYNC_A",
+    "O"
+   ]
+  ]
+ },
+ "E11": {
+  "name": "P5_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SS1_A",
+    "O"
+   ],
+   [
+    2,
+    "UART3_CTS_A",
+    "I"
+   ],
+   [
+    3,
+    "PDM_D2_B",
+    "I"
+   ],
+   [
+    4,
+    "SPI0_SS3_A",
+    "O"
+   ],
+   [
+    5,
+    "UT2_T0_B",
+    "IO"
+   ],
+   [
+    6,
+    "SD_D4_A",
+    "IO"
+   ],
+   [
+    7,
+    "CDC_DE_A",
+    "O"
+   ]
+  ]
+ },
+ "E12": {
+  "name": "P5_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO5_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SCLKN_A",
+    "O"
+   ],
+   [
+    2,
+    "UART5_RX_C",
+    "I"
+   ],
+   [
+    3,
+    "PDM_C3_A",
+    "O"
+   ],
+   [
+    4,
+    "SPI0_SS0_B",
+    "IO"
+   ],
+   [
+    5,
+    "LPI2C_SCL_B",
+    "I"
+   ],
+   [
+    6,
+    "UT1_T0_B",
+    "IO"
+   ],
+   [
+    7,
+    "SD_D2_A",
+    "IO"
+   ]
+  ]
+ },
+ "E13": {
+  "name": "P13_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D3_B",
+    "IO"
+   ],
+   [
+    2,
+    "SPI2_SS3_A",
+    "O"
+   ],
+   [
+    3,
+    "QEC1_X_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_D3_B",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D19_B",
+    "O"
+   ]
+  ]
+ },
+ "E14": {
+  "name": "P13_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D4_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_SDI_C",
+    "I"
+   ],
+   [
+    3,
+    "QEC1_Y_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_D4_B",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D20_B",
+    "O"
+   ]
+  ]
+ },
+ "E15": {
+  "name": "P12_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_RXDS_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART4_TX_B",
+    "O"
+   ],
+   [
+    3,
+    "I2S1_SCLK_B",
+    "O"
+   ],
+   [
+    4,
+    "UT9_T0_C",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D10_B",
+    "O"
+   ]
+  ]
+ },
+ "E18": {
+  "name": "P12_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SCLKN_C",
+    "O"
+   ],
+   [
+    2,
+    "UART4_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "I2S1_SDO_B",
+    "O"
+   ],
+   [
+    4,
+    "UT8_T1_C",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D9_B",
+    "O"
+   ]
+  ]
+ },
+ "E19": {
+  "name": "VDD_CORE_0V8",
+  "type": "power_in"
+ },
+ "F1": {
+  "name": "P3_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SCLKN_A",
+    "O"
+   ],
+   [
+    2,
+    "UART5_TX_A",
+    "O"
+   ],
+   [
+    3,
+    "LPPDM_D0_B",
+    "I"
+   ],
+   [
+    4,
+    "SPI0_SS1_B",
+    "O"
+   ],
+   [
+    5,
+    "I2C0_SDA_B",
+    "IO"
+   ],
+   [
+    6,
+    "QEC1_Z_A",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D9_A",
+    "I"
+   ]
+  ]
+ },
+ "F2": {
+  "name": "P3_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_RXDS_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART5_RX_A",
+    "I"
+   ],
+   [
+    3,
+    "LPPDM_C0_B",
+    "O"
+   ],
+   [
+    4,
+    "I2S1_SCLK_A",
+    "O"
+   ],
+   [
+    5,
+    "I2C0_SCL_B",
+    "IO"
+   ],
+   [
+    6,
+    "QEC1_Y_A",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D8_A",
+    "I"
+   ]
+  ]
+ },
+ "F5": {
+  "name": "P12_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SS1_C",
+    "O"
+   ],
+   [
+    2,
+    "SPI3_MISO_A",
+    "IO"
+   ],
+   [
+    3,
+    "UT10_T0_C",
+    "IO"
+   ],
+   [
+    4,
+    "CAN_RXD_C",
+    "I"
+   ],
+   [
+    5,
+    "CDC_D12_B",
+    "O"
+   ]
+  ]
+ },
+ "F15": {
+  "name": "P13_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D2_B",
+    "IO"
+   ],
+   [
+    2,
+    "SPI3_SS3_A",
+    "O"
+   ],
+   [
+    3,
+    "QEC0_Z_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_D2_B",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D18_B",
+    "O"
+   ]
+  ]
+ },
+ "F18": {
+  "name": "P4_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO4_0",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TDATA0",
+    "O"
+   ],
+   [
+    3,
+    "I2S1_WS_A",
+    "O"
+   ],
+   [
+    4,
+    "SPI1_SS2_A",
+    "O"
+   ],
+   [
+    5,
+    "QEC2_Z_A",
+    "I"
+   ],
+   [
+    6,
+    "CDC_VSYNC_B",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D12_A",
+    "I"
+   ]
+  ]
+ },
+ "F19": {
+  "name": "P12_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO12_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SCLK_C",
+    "O"
+   ],
+   [
+    2,
+    "AUDIO_CLK_C",
+    "I"
+   ],
+   [
+    3,
+    "I2S1_SDI_B",
+    "I"
+   ],
+   [
+    4,
+    "UT8_T0_C",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D8_B",
+    "O"
+   ]
+  ]
+ },
+ "G1": {
+  "name": "P14_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SS0_B",
+    "O"
+   ],
+   [
+    2,
+    "UART7_RX_C",
+    "I"
+   ],
+   [
+    4,
+    "QEC3_Y_C",
+    "I"
+   ],
+   [
+    5,
+    "SD_RST_B",
+    "O"
+   ]
+  ]
+ },
+ "G2": {
+  "name": "P3_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SS1_B",
+    "O"
+   ],
+   [
+    2,
+    "PDM_C1_B",
+    "O"
+   ],
+   [
+    3,
+    "I2S1_SDO_A",
+    "O"
+   ],
+   [
+    4,
+    "I3C_SCL_C",
+    "IO"
+   ],
+   [
+    5,
+    "QEC1_X_A",
+    "I"
+   ],
+   [
+    6,
+    "LPCAM_D7_B",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D7_A",
+    "I"
+   ]
+  ]
+ },
+ "G5": {
+  "name": "P9_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_2",
+    "IO"
+   ],
+   [
+    1,
+    "LPUART_TX_B",
+    "O"
+   ],
+   [
+    2,
+    "I2S3_SDI_A",
+    "I"
+   ],
+   [
+    3,
+    "SPI2_MISO_B",
+    "IO"
+   ],
+   [
+    4,
+    "QEC2_X_B",
+    "I"
+   ],
+   [
+    5,
+    "SD_RST_C",
+    "O"
+   ],
+   [
+    6,
+    "CDC_D10_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D10_B",
+    "I"
+   ]
+  ]
+ },
+ "G15": {
+  "name": "P13_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D1_B",
+    "IO"
+   ],
+   [
+    2,
+    "SPI3_SS2_A",
+    "O"
+   ],
+   [
+    3,
+    "QEC0_Y_C",
+    "I"
+   ],
+   [
+    4,
+    "SD_D1_B",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D17_B",
+    "O"
+   ]
+  ]
+ },
+ "G18": {
+  "name": "P13_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO13_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D0_B",
+    "IO"
+   ],
+   [
+    3,
+    "SPI3_SS1_A",
+    "O"
+   ],
+   [
+    4,
+    "QEC0_X_C",
+    "I"
+   ],
+   [
+    5,
+    "SD_D0_B",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D16_B",
+    "O"
+   ]
+  ]
+ },
+ "G19": {
+  "name": "P2_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D4_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_SDI_A",
+    "I"
+   ],
+   [
+    3,
+    "SPI1_MISO_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT10_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D0_B",
+    "I"
+   ],
+   [
+    6,
+    "CAM_D0_A",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S20",
+    "A"
+   ]
+  ]
+ },
+ "H1": {
+  "name": "P8_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_5",
+    "IO"
+   ],
+   [
+    2,
+    "SPI1_SCLK_B",
+    "IO"
+   ],
+   [
+    3,
+    "QEC0_Y_B",
+    "I"
+   ],
+   [
+    4,
+    "LPCAM_D5_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_D5_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D5_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D5_B",
+    "I"
+   ]
+  ]
+ },
+ "H2": {
+  "name": "P14_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SCLKN_B",
+    "O"
+   ],
+   [
+    2,
+    "UART6_TX_C",
+    "O"
+   ],
+   [
+    4,
+    "QEC3_X_C",
+    "I"
+   ],
+   [
+    5,
+    "SD_CLK_B",
+    "O"
+   ]
+  ]
+ },
+ "H5": {
+  "name": "P9_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_3",
+    "IO"
+   ],
+   [
+    2,
+    "UART7_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "I2S3_SDO_A",
+    "O"
+   ],
+   [
+    4,
+    "SPI2_MOSI_B",
+    "IO"
+   ],
+   [
+    5,
+    "QEC2_Y_B",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D11_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D11_B",
+    "I"
+   ]
+  ]
+ },
+ "H15": {
+  "name": "P2_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D3_B",
+    "IO"
+   ],
+   [
+    2,
+    "UART3_TX_B",
+    "O"
+   ],
+   [
+    3,
+    "LPPDM_C1_A",
+    "O"
+   ],
+   [
+    4,
+    "UT9_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D7_C",
+    "I"
+   ],
+   [
+    6,
+    "CDC_PCLK_B",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S19",
+    "A"
+   ]
+  ]
+ },
+ "H18": {
+  "name": "P2_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_6",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D6_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_SCLK_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI1_SCLK_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT11_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D2_B",
+    "I"
+   ],
+   [
+    6,
+    "CAM_D2_A",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S22",
+    "A"
+   ]
+  ]
+ },
+ "H19": {
+  "name": "P2_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D5_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_SDO_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI1_MOSI_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT10_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D1_B",
+    "I"
+   ],
+   [
+    6,
+    "CAM_D1_A",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S21",
+    "A"
+   ]
+  ]
+ },
+ "J1": {
+  "name": "P8_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_7",
+    "IO"
+   ],
+   [
+    2,
+    "I2S3_WS_B",
+    "O"
+   ],
+   [
+    3,
+    "QEC1_X_B",
+    "I"
+   ],
+   [
+    4,
+    "LPCAM_D7_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_D7_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D7_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D7_B",
+    "I"
+   ]
+  ]
+ },
+ "J2": {
+  "name": "P8_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO8_6",
+    "IO"
+   ],
+   [
+    2,
+    "I2S3_SCLK_B",
+    "O"
+   ],
+   [
+    3,
+    "QEC0_Z_B",
+    "I"
+   ],
+   [
+    4,
+    "LPCAM_D6_A",
+    "I"
+   ],
+   [
+    5,
+    "SD_D6_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D6_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D6_B",
+    "I"
+   ]
+  ]
+ },
+ "J5": {
+  "name": "P9_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_4",
+    "IO"
+   ],
+   [
+    1,
+    "UART7_TX_B",
+    "O"
+   ],
+   [
+    2,
+    "I2S3_SCLK_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI2_SCLK_B",
+    "IO"
+   ],
+   [
+    4,
+    "I2C3_SDA_C",
+    "IO"
+   ],
+   [
+    5,
+    "QEC2_Z_B",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D12_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D12_B",
+    "I"
+   ]
+  ]
+ },
+ "J8": {
+  "name": "NC",
+  "type": "no_connect"
+ },
+ "J9": {
+  "name": "P11_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D5_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART6_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "PDM_C3_B",
+    "O"
+   ],
+   [
+    4,
+    "LPSPI_MOSI_B",
+    "IO"
+   ],
+   [
+    5,
+    "UT6_T1_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_CRS_DV_B",
+    "I"
+   ],
+   [
+    7,
+    "CDC_D5_B",
+    "O"
+   ]
+  ]
+ },
+ "J10": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "J11": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "J12": {
+  "name": "NSRST",
+  "type": "input"
+ },
+ "J15": {
+  "name": "P2_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D2_B",
+    "IO"
+   ],
+   [
+    2,
+    "UART3_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "LPPDM_D1_A",
+    "I"
+   ],
+   [
+    4,
+    "UT9_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D6_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_CRS_DV_C",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S18",
+    "A"
+   ]
+  ]
+ },
+ "J18": {
+  "name": "P1_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SCLK_A",
+    "O"
+   ],
+   [
+    2,
+    "UART1_TX_B",
+    "O"
+   ],
+   [
+    3,
+    "I2S0_SDO_A",
+    "O"
+   ],
+   [
+    4,
+    "UT7_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D3_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_REFCLK_C",
+    "IO"
+   ],
+   [
+    7,
+    "ANA_S15",
+    "A"
+   ]
+  ]
+ },
+ "J19": {
+  "name": "P2_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D7_B",
+    "IO"
+   ],
+   [
+    2,
+    "LPI2S_WS_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI1_SS0_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT11_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D3_B",
+    "I"
+   ],
+   [
+    6,
+    "CAM_D3_A",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S23",
+    "A"
+   ]
+  ]
+ },
+ "K1": {
+  "name": "P9_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_1",
+    "IO"
+   ],
+   [
+    1,
+    "LPUART_RX_B",
+    "I"
+   ],
+   [
+    2,
+    "I2S3_SDO_B",
+    "O"
+   ],
+   [
+    3,
+    "QEC1_Z_B",
+    "I"
+   ],
+   [
+    4,
+    "SD_CLK_C",
+    "O"
+   ],
+   [
+    5,
+    "CDC_D9_A",
+    "O"
+   ],
+   [
+    6,
+    "CAM_D9_B",
+    "I"
+   ]
+  ]
+ },
+ "K2": {
+  "name": "P9_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_0",
+    "IO"
+   ],
+   [
+    2,
+    "I2S3_SDI_B",
+    "I"
+   ],
+   [
+    3,
+    "QEC1_Y_B",
+    "I"
+   ],
+   [
+    4,
+    "SD_CMD_C",
+    "IO"
+   ],
+   [
+    5,
+    "CDC_D8_A",
+    "O"
+   ],
+   [
+    6,
+    "CAM_D8_B",
+    "I"
+   ]
+  ]
+ },
+ "K5": {
+  "name": "P9_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_6",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D1_C",
+    "IO"
+   ],
+   [
+    2,
+    "AUDIO_CLK_B",
+    "I"
+   ],
+   [
+    3,
+    "SPI2_SS1_B",
+    "O"
+   ],
+   [
+    4,
+    "I2C3_SDA_B",
+    "IO"
+   ],
+   [
+    5,
+    "QEC3_Y_B",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D14_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D14_B",
+    "I"
+   ]
+  ]
+ },
+ "K8": {
+  "name": "P11_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D4_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART5_TX_B",
+    "O"
+   ],
+   [
+    3,
+    "PDM_C2_B",
+    "O"
+   ],
+   [
+    4,
+    "LPSPI_MISO_B",
+    "IO"
+   ],
+   [
+    5,
+    "UT6_T0_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_RXD1_B",
+    "I"
+   ],
+   [
+    7,
+    "CDC_D4_B",
+    "O"
+   ]
+  ]
+ },
+ "K9": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "K10": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "K11": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "K12": {
+  "name": "P14_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_6",
+    "IO"
+   ],
+   [
+    1,
+    "CMP1_OUT_B",
+    "O"
+   ],
+   [
+    2,
+    "SPI1_SCLK_C",
+    "IO"
+   ],
+   [
+    3,
+    "FAULT2_C",
+    "I"
+   ]
+  ]
+ },
+ "K15": {
+  "name": "P1_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_3",
+    "IO"
+   ],
+   [
+    1,
+    "UART3_TX_A",
+    "O"
+   ],
+   [
+    2,
+    "SPI0_SS0_A",
+    "IO"
+   ],
+   [
+    3,
+    "I3C_SCL_B",
+    "IO"
+   ],
+   [
+    4,
+    "UT5_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_XVCLK_C",
+    "O"
+   ],
+   [
+    6,
+    "ETH_TXD0_C",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S11",
+    "A"
+   ]
+  ]
+ },
+ "K18": {
+  "name": "P2_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D1_B",
+    "IO"
+   ],
+   [
+    2,
+    "UART2_TX_B",
+    "O"
+   ],
+   [
+    3,
+    "LPPDM_C0_A",
+    "O"
+   ],
+   [
+    4,
+    "UT8_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D5_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_MDC_C",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S17",
+    "A"
+   ]
+  ]
+ },
+ "K19": {
+  "name": "P2_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO2_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D0_B",
+    "IO"
+   ],
+   [
+    2,
+    "UART2_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "LPPDM_D0_A",
+    "I"
+   ],
+   [
+    4,
+    "UT8_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D4_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_MDIO_C",
+    "IO"
+   ],
+   [
+    7,
+    "ANA_S16",
+    "A"
+   ]
+  ]
+ },
+ "L1": {
+  "name": "P9_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D0_C",
+    "IO"
+   ],
+   [
+    2,
+    "I2S3_WS_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI2_SS0_B",
+    "IO"
+   ],
+   [
+    4,
+    "I2C3_SCL_C",
+    "IO"
+   ],
+   [
+    5,
+    "QEC3_X_B",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D13_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D13_B",
+    "I"
+   ]
+  ]
+ },
+ "L2": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "L5": {
+  "name": "P9_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO9_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D2_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART7_DE_B",
+    "O"
+   ],
+   [
+    3,
+    "SPI2_SS2_B",
+    "O"
+   ],
+   [
+    4,
+    "I2C3_SCL_B",
+    "IO"
+   ],
+   [
+    5,
+    "QEC3_Z_B",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D15_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_D15_B",
+    "I"
+   ]
+  ]
+ },
+ "L8": {
+  "name": "P3_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_7",
+    "IO"
+   ],
+   [
+    1,
+    "JTAG_TRACECLK",
+    "O"
+   ],
+   [
+    2,
+    "LPUART_RTS_B",
+    "O"
+   ],
+   [
+    3,
+    "LPPDM_D1_B",
+    "I"
+   ],
+   [
+    4,
+    "SPI1_SS1_A",
+    "O"
+   ],
+   [
+    5,
+    "I2C1_SCL_B",
+    "IO"
+   ],
+   [
+    6,
+    "QEC2_Y_A",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D11_A",
+    "I"
+   ]
+  ]
+ },
+ "L9": {
+  "name": "P11_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D7_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART5_DE_B",
+    "O"
+   ],
+   [
+    3,
+    "LPPDM_D3_B",
+    "I"
+   ],
+   [
+    4,
+    "LPSPI_SS_B",
+    "IO"
+   ],
+   [
+    5,
+    "UT7_T1_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_IRQ_B",
+    "I"
+   ],
+   [
+    7,
+    "CDC_D7_B",
+    "O"
+   ]
+  ]
+ },
+ "L10": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "L11": {
+  "name": "P14_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_5",
+    "IO"
+   ],
+   [
+    1,
+    "CMP2_OUT_B",
+    "O"
+   ],
+   [
+    2,
+    "SPI1_MOSI_C",
+    "IO"
+   ],
+   [
+    3,
+    "FAULT1_C",
+    "I"
+   ]
+  ]
+ },
+ "L12": {
+  "name": "P14_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_7",
+    "IO"
+   ],
+   [
+    1,
+    "CMP0_OUT_B",
+    "O"
+   ],
+   [
+    2,
+    "SPI1_SS0_C",
+    "IO"
+   ],
+   [
+    3,
+    "FAULT3_C",
+    "I"
+   ]
+  ]
+ },
+ "L15": {
+  "name": "P1_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_2",
+    "IO"
+   ],
+   [
+    1,
+    "UART3_RX_A",
+    "I"
+   ],
+   [
+    2,
+    "SPI0_SCLK_A",
+    "IO"
+   ],
+   [
+    3,
+    "I3C_SDA_B",
+    "IO"
+   ],
+   [
+    4,
+    "UT5_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_PCLK_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_RST_C",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S10",
+    "A"
+   ]
+  ]
+ },
+ "L18": {
+  "name": "P1_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SS1_A",
+    "O"
+   ],
+   [
+    2,
+    "UART0_TX_B",
+    "O"
+   ],
+   [
+    3,
+    "SPI0_SS2_A",
+    "O"
+   ],
+   [
+    4,
+    "UT6_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D1_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_TXEN_C",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S13",
+    "A"
+   ]
+  ]
+ },
+ "L19": {
+  "name": "P1_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_6",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_RXDS_B",
+    "IO"
+   ],
+   [
+    2,
+    "UART1_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "I2S0_SDI_A",
+    "I"
+   ],
+   [
+    4,
+    "UT7_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D2_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_IRQ_C",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S14",
+    "A"
+   ]
+  ]
+ },
+ "M1": {
+  "name": "P10_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D4_C",
+    "IO"
+   ],
+   [
+    3,
+    "LPI2S_SDI_B",
+    "I"
+   ],
+   [
+    4,
+    "UT0_T1_C",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_VSYNC_A",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D17_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_VSYNC_B",
+    "I"
+   ]
+  ]
+ },
+ "M2": {
+  "name": "P10_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D3_C",
+    "IO"
+   ],
+   [
+    2,
+    "UART6_DE_B",
+    "O"
+   ],
+   [
+    3,
+    "SPI2_SS3_B",
+    "O"
+   ],
+   [
+    4,
+    "UT0_T0_C",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_HSYNC_A",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D16_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_HSYNC_B",
+    "I"
+   ]
+  ]
+ },
+ "M5": {
+  "name": "P10_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D7_C",
+    "IO"
+   ],
+   [
+    3,
+    "LPI2S_WS_B",
+    "O"
+   ],
+   [
+    4,
+    "I2C0_SDA_D",
+    "IO"
+   ],
+   [
+    5,
+    "UT2_T0_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_TXD0_B",
+    "O"
+   ],
+   [
+    7,
+    "CDC_D20_A",
+    "O"
+   ]
+  ]
+ },
+ "M15": {
+  "name": "P1_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_1",
+    "IO"
+   ],
+   [
+    1,
+    "UART2_TX_A",
+    "O"
+   ],
+   [
+    2,
+    "SPI0_MOSI_A",
+    "IO"
+   ],
+   [
+    3,
+    "I2C3_SCL_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT4_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_VSYNC_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_RXD1_C",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S9",
+    "A"
+   ]
+  ]
+ },
+ "M18": {
+  "name": "NC",
+  "type": "no_connect"
+ },
+ "M19": {
+  "name": "P1_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_SS0_A",
+    "O"
+   ],
+   [
+    2,
+    "UART0_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "SPI0_SS1_A",
+    "O"
+   ],
+   [
+    4,
+    "UT6_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_D0_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_TXD1_C",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S12",
+    "A"
+   ]
+  ]
+ },
+ "N1": {
+  "name": "P10_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D5_C",
+    "IO"
+   ],
+   [
+    3,
+    "LPI2S_SDO_B",
+    "O"
+   ],
+   [
+    4,
+    "UT1_T0_C",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_PCLK_A",
+    "I"
+   ],
+   [
+    6,
+    "CDC_D18_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_PCLK_B",
+    "I"
+   ]
+  ]
+ },
+ "N2": {
+  "name": "P10_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D6_C",
+    "IO"
+   ],
+   [
+    3,
+    "LPI2S_SCLK_B",
+    "O"
+   ],
+   [
+    4,
+    "UT1_T1_C",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_XVCLK_A",
+    "O"
+   ],
+   [
+    6,
+    "CDC_D19_A",
+    "O"
+   ],
+   [
+    7,
+    "CAM_XVCLK_B",
+    "O"
+   ]
+  ]
+ },
+ "N5": {
+  "name": "P10_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_5",
+    "IO"
+   ],
+   [
+    1,
+    "UART6_RX_A",
+    "I"
+   ],
+   [
+    2,
+    "I2S2_SDI_B",
+    "I"
+   ],
+   [
+    3,
+    "SPI3_MISO_B",
+    "IO"
+   ],
+   [
+    4,
+    "I2C0_SCL_D",
+    "IO"
+   ],
+   [
+    5,
+    "UT2_T1_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_TXD1_B",
+    "O"
+   ],
+   [
+    7,
+    "CDC_D21_A",
+    "O"
+   ]
+  ]
+ },
+ "N15": {
+  "name": "P0_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_5",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D5_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART1_TX_A",
+    "O"
+   ],
+   [
+    3,
+    "PDM_C0_A",
+    "O"
+   ],
+   [
+    4,
+    "I2C1_SCL_A",
+    "IO"
+   ],
+   [
+    5,
+    "UT2_T1_A",
+    "IO"
+   ],
+   [
+    6,
+    "CAN_TXD_B",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S5",
+    "A"
+   ]
+  ]
+ },
+ "N18": {
+  "name": "VREF_P",
+  "type": "passive"
+ },
+ "N19": {
+  "name": "VREG_MIPI_1V8",
+  "type": "power_out"
+ },
+ "P1": {
+  "name": "P10_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_7",
+    "IO"
+   ],
+   [
+    1,
+    "UART7_RX_A",
+    "I"
+   ],
+   [
+    2,
+    "I2S2_SCLK_B",
+    "O"
+   ],
+   [
+    3,
+    "SPI3_SCLK_B",
+    "IO"
+   ],
+   [
+    4,
+    "I2C1_SCL_D",
+    "IO"
+   ],
+   [
+    5,
+    "UT3_T1_C",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D23_A",
+    "O"
+   ],
+   [
+    7,
+    "OSPI1_RXDS_C",
+    "IO"
+   ]
+  ]
+ },
+ "P2": {
+  "name": "P11_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D0_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART7_TX_A",
+    "O"
+   ],
+   [
+    3,
+    "I2S2_WS_B",
+    "O"
+   ],
+   [
+    4,
+    "SPI3_SS0_B",
+    "IO"
+   ],
+   [
+    5,
+    "UT4_T0_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_REFCLK_B",
+    "IO"
+   ],
+   [
+    7,
+    "CDC_D0_B",
+    "O"
+   ]
+  ]
+ },
+ "P5": {
+  "name": "P10_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO10_6",
+    "IO"
+   ],
+   [
+    1,
+    "UART6_TX_A",
+    "O"
+   ],
+   [
+    2,
+    "I2S2_SDO_B",
+    "O"
+   ],
+   [
+    3,
+    "SPI3_MOSI_B",
+    "IO"
+   ],
+   [
+    4,
+    "I2C1_SDA_D",
+    "IO"
+   ],
+   [
+    5,
+    "UT3_T0_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_TXEN_B",
+    "O"
+   ],
+   [
+    7,
+    "CDC_D22_A",
+    "O"
+   ]
+  ]
+ },
+ "P15": {
+  "name": "P0_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_6",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D6_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART1_CTS_A",
+    "I"
+   ],
+   [
+    3,
+    "PDM_D1_A",
+    "I"
+   ],
+   [
+    4,
+    "I2C2_SCL_A",
+    "IO"
+   ],
+   [
+    5,
+    "UT3_T0_A",
+    "IO"
+   ],
+   [
+    6,
+    "CAN_STBY_B",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S6",
+    "A"
+   ]
+  ]
+ },
+ "P18": {
+  "name": "VSS_ANA",
+  "type": "power_in"
+ },
+ "P19": {
+  "name": "VDD_MAIN",
+  "type": "power_in"
+ },
+ "R1": {
+  "name": "P11_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D1_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART7_DE_A",
+    "O"
+   ],
+   [
+    3,
+    "SPI3_SS1_B",
+    "O"
+   ],
+   [
+    4,
+    "UT4_T1_C",
+    "IO"
+   ],
+   [
+    5,
+    "ETH_MDIO_B",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_D1_B",
+    "O"
+   ]
+  ]
+ },
+ "R2": {
+  "name": "P11_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D2_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART6_DE_A",
+    "O"
+   ],
+   [
+    3,
+    "LPPDM_C2_B",
+    "O"
+   ],
+   [
+    4,
+    "SPI3_SS2_B",
+    "O"
+   ],
+   [
+    5,
+    "UT5_T0_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_MDC_B",
+    "O"
+   ],
+   [
+    7,
+    "CDC_D2_B",
+    "O"
+   ]
+  ]
+ },
+ "R5": {
+  "name": "P11_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D3_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART5_RX_B",
+    "I"
+   ],
+   [
+    3,
+    "LPPDM_C3_B",
+    "O"
+   ],
+   [
+    4,
+    "SPI3_SS3_B",
+    "O"
+   ],
+   [
+    5,
+    "UT5_T1_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_RXD0_B",
+    "I"
+   ],
+   [
+    7,
+    "CDC_D3_B",
+    "O"
+   ]
+  ]
+ },
+ "R6": {
+  "name": "P11_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO11_6",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_D6_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART6_TX_B",
+    "O"
+   ],
+   [
+    3,
+    "LPPDM_D2_B",
+    "I"
+   ],
+   [
+    4,
+    "LPSPI_SCLK_B",
+    "IO"
+   ],
+   [
+    5,
+    "UT7_T0_C",
+    "IO"
+   ],
+   [
+    6,
+    "ETH_RST_B",
+    "O"
+   ],
+   [
+    7,
+    "CDC_D6_B",
+    "O"
+   ]
+  ]
+ },
+ "R7": {
+  "name": "P14_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI1_SS1_B",
+    "O"
+   ],
+   [
+    2,
+    "UART7_TX_C",
+    "O"
+   ],
+   [
+    4,
+    "QEC3_Z_C",
+    "I"
+   ]
+  ]
+ },
+ "R8": {
+  "name": "P14_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO14_4",
+    "IO"
+   ],
+   [
+    1,
+    "CMP3_OUT_B",
+    "O"
+   ],
+   [
+    2,
+    "SPI1_MISO_C",
+    "IO"
+   ],
+   [
+    3,
+    "FAULT0_C",
+    "I"
+   ]
+  ]
+ },
+ "R9": {
+  "name": "USB_IO_ID",
+  "type": "passive"
+ },
+ "R10": {
+  "name": "P0_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_4",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D4_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART1_RX_A",
+    "I"
+   ],
+   [
+    3,
+    "PDM_D0_A",
+    "I"
+   ],
+   [
+    4,
+    "I2C1_SDA_A",
+    "IO"
+   ],
+   [
+    5,
+    "UT2_T0_A",
+    "IO"
+   ],
+   [
+    6,
+    "CAN_RXD_B",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S4",
+    "A"
+   ]
+  ]
+ },
+ "R11": {
+  "name": "P0_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_3",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D3_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART0_RTS_A",
+    "O"
+   ],
+   [
+    3,
+    "I2C0_SCL_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT1_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_XVCLK_B",
+    "O"
+   ],
+   [
+    6,
+    "CAM_XVCLK_A",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S3",
+    "A"
+   ]
+  ]
+ },
+ "R12": {
+  "name": "P0_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_2",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D2_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART0_CTS_A",
+    "I"
+   ],
+   [
+    3,
+    "I2C0_SDA_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT1_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_PCLK_B",
+    "I"
+   ],
+   [
+    6,
+    "CAM_PCLK_A",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S2",
+    "A"
+   ]
+  ]
+ },
+ "R13": {
+  "name": "P0_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_1",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D1_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART0_TX_A",
+    "O"
+   ],
+   [
+    3,
+    "I3C_SCL_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT0_T1_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_VSYNC_B",
+    "I"
+   ],
+   [
+    6,
+    "CAM_VSYNC_A",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S1",
+    "A"
+   ]
+  ]
+ },
+ "R14": {
+  "name": "P1_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO1_0",
+    "IO"
+   ],
+   [
+    1,
+    "UART2_RX_A",
+    "I"
+   ],
+   [
+    2,
+    "SPI0_MISO_A",
+    "IO"
+   ],
+   [
+    3,
+    "I2C3_SDA_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT4_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_HSYNC_C",
+    "I"
+   ],
+   [
+    6,
+    "ETH_RXD0_C",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S8",
+    "A"
+   ]
+  ]
+ },
+ "R15": {
+  "name": "P0_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_7",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D7_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART1_RTS_A",
+    "O"
+   ],
+   [
+    3,
+    "PDM_C1_A",
+    "O"
+   ],
+   [
+    4,
+    "I2C2_SDA_A",
+    "IO"
+   ],
+   [
+    5,
+    "UT3_T1_A",
+    "IO"
+   ],
+   [
+    6,
+    "CDC_DE_B",
+    "O"
+   ],
+   [
+    7,
+    "ANA_S7",
+    "A"
+   ]
+  ]
+ },
+ "R18": {
+  "name": "VDD_BUCK",
+  "type": "power_in"
+ },
+ "R19": {
+  "name": "P0_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO0_0",
+    "IO"
+   ],
+   [
+    1,
+    "OSPI0_D0_A",
+    "IO"
+   ],
+   [
+    2,
+    "UART0_RX_A",
+    "I"
+   ],
+   [
+    3,
+    "I3C_SDA_A",
+    "IO"
+   ],
+   [
+    4,
+    "UT0_T0_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPCAM_HSYNC_B",
+    "I"
+   ],
+   [
+    6,
+    "CAM_HSYNC_A",
+    "I"
+   ],
+   [
+    7,
+    "ANA_S0",
+    "A"
+   ]
+  ]
+ },
+ "T1": {
+  "name": "P7_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIO7_4",
+    "IO"
+   ],
+   [
+    2,
+    "LPUART_CTS_A",
+    "I"
+   ],
+   [
+    3,
+    "LPPDM_C2_A",
+    "O"
+   ],
+   [
+    4,
+    "LPSPI_MISO_A",
+    "IO"
+   ],
+   [
+    5,
+    "LPI2C_SCL_A",
+    "I"
+   ],
+   [
+    6,
+    "UT10_T0_B",
+    "IO"
+   ]
+  ]
+ },
+ "T2": {
+  "name": "P7_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIO7_5",
+    "IO"
+   ],
+   [
+    2,
+    "LPUART_RTS_A",
+    "O"
+   ],
+   [
+    4,
+    "LPPDM_D2_A",
+    "I"
+   ],
+   [
+    5,
+    "LPSPI_MOSI_A",
+    "IO"
+   ],
+   [
+    6,
+    "LPI2C_SDA_A",
+    "IO"
+   ],
+   [
+    7,
+    "UT10_T1_B",
+    "IO"
+   ]
+  ]
+ },
+ "T18": {
+  "name": "VDD_BATT",
+  "type": "power_in"
+ },
+ "T19": {
+  "name": "VSW",
+  "type": "power_out"
+ },
+ "U1": {
+  "name": "P7_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIO7_7",
+    "IO"
+   ],
+   [
+    2,
+    "LPUART_TX_A",
+    "O"
+   ],
+   [
+    4,
+    "LPPDM_D3_A",
+    "I"
+   ],
+   [
+    5,
+    "LPSPI_SS_A",
+    "IO"
+   ],
+   [
+    6,
+    "I3C_SCL_D",
+    "IO"
+   ],
+   [
+    7,
+    "UT11_T1_B",
+    "IO"
+   ]
+  ]
+ },
+ "U2": {
+  "name": "P15_2",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIOV_2",
+    "IO"
+   ],
+   [
+    1,
+    "LPTMR2_CLK_IO",
+    "IO"
+   ]
+  ]
+ },
+ "U3": {
+  "name": "P7_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIO7_6",
+    "IO"
+   ],
+   [
+    2,
+    "LPUART_RX_A",
+    "I"
+   ],
+   [
+    4,
+    "LPPDM_C3_A",
+    "O"
+   ],
+   [
+    5,
+    "LPSPI_SCLK_A",
+    "IO"
+   ],
+   [
+    6,
+    "I3C_SDA_D",
+    "IO"
+   ],
+   [
+    7,
+    "UT11_T0_B",
+    "IO"
+   ]
+  ]
+ },
+ "U17": {
+  "name": "VREG_AON",
+  "type": "power_out"
+ },
+ "U18": {
+  "name": "POR_N",
+  "type": "input"
+ },
+ "U19": {
+  "name": "VREG_DIG_1V8",
+  "type": "power_out"
+ },
+ "V1": {
+  "name": "P15_3",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIOV_3",
+    "IO"
+   ],
+   [
+    1,
+    "LPTMR3_CLK_IO",
+    "IO"
+   ]
+  ]
+ },
+ "V2": {
+  "name": "P15_0",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIOV_0",
+    "IO"
+   ],
+   [
+    1,
+    "LPTMR0_CLK_IO",
+    "IO"
+   ]
+  ]
+ },
+ "V3": {
+  "name": "P15_4",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIOV_4",
+    "IO"
+   ]
+  ]
+ },
+ "V4": {
+  "name": "P15_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIOV_6",
+    "IO"
+   ]
+  ]
+ },
+ "V5": {
+  "name": "P3_6",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIO3_6",
+    "IO"
+   ],
+   [
+    2,
+    "LPUART_CTS_B",
+    "I"
+   ],
+   [
+    3,
+    "LPPDM_C1_B",
+    "O"
+   ],
+   [
+    4,
+    "SPI0_SS2_B",
+    "O"
+   ],
+   [
+    5,
+    "I2C1_SDA_B",
+    "IO"
+   ],
+   [
+    6,
+    "QEC2_X_A",
+    "I"
+   ],
+   [
+    7,
+    "CAM_D10_A",
+    "I"
+   ]
+  ]
+ },
+ "V6": {
+  "name": "VDD_CORE_0V8",
+  "type": "power_in"
+ },
+ "V7": {
+  "name": "USB_DM",
+  "type": "bidirectional"
+ },
+ "V8": {
+  "name": "USB_REXT",
+  "type": "passive"
+ },
+ "V9": {
+  "name": "MIPIDSI_1_N",
+  "type": "output"
+ },
+ "V10": {
+  "name": "MIPIDSI_C_N",
+  "type": "output"
+ },
+ "V11": {
+  "name": "MIPIDSI_0_N",
+  "type": "output"
+ },
+ "V12": {
+  "name": "VSS",
+  "type": "power_in"
+ },
+ "V13": {
+  "name": "MIPI_REXT",
+  "type": "passive"
+ },
+ "V14": {
+  "name": "MIPICSI_0_N",
+  "type": "input"
+ },
+ "V15": {
+  "name": "MIPICSI_1_N",
+  "type": "input"
+ },
+ "V16": {
+  "name": "MIPICSI_C_N",
+  "type": "input"
+ },
+ "V17": {
+  "name": "LFXO_N",
+  "type": "output"
+ },
+ "V18": {
+  "name": "VREG_AUX_1V8",
+  "type": "power_out"
+ },
+ "V19": {
+  "name": "VSS_BUCK",
+  "type": "power_in"
+ },
+ "W1": {
+  "name": "VDD_IO_FLEX",
+  "type": "power_in"
+ },
+ "W2": {
+  "name": "P15_1",
+  "type": "bidirectional",
+  "rail": "VDD_IO_FLEX",
+  "alts": [
+   [
+    0,
+    "GPIOV_1",
+    "IO"
+   ],
+   [
+    1,
+    "LPTMR1_CLK_IO",
+    "IO"
+   ]
+  ]
+ },
+ "W3": {
+  "name": "VDD_IO_1V8",
+  "type": "power_in"
+ },
+ "W4": {
+  "name": "P15_5",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIOV_5",
+    "IO"
+   ]
+  ]
+ },
+ "W5": {
+  "name": "P15_7",
+  "type": "bidirectional",
+  "rail": "VDD_IO_1V8",
+  "alts": [
+   [
+    0,
+    "GPIOV_7",
+    "IO"
+   ]
+  ]
+ },
+ "W6": {
+  "name": "USB_VBUS",
+  "type": "passive"
+ },
+ "W7": {
+  "name": "USB_DP",
+  "type": "bidirectional"
+ },
+ "W8": {
+  "name": "VDD_USB_3V3",
+  "type": "power_in"
+ },
+ "W9": {
+  "name": "MIPIDSI_1_P",
+  "type": "output"
+ },
+ "W10": {
+  "name": "MIPIDSI_C_P",
+  "type": "output"
+ },
+ "W11": {
+  "name": "MIPIDSI_0_P",
+  "type": "output"
+ },
+ "W12": {
+  "name": "VDD_MIPI_1V8",
+  "type": "power_in"
+ },
+ "W13": {
+  "name": "VREG_MIPI_0V8",
+  "type": "power_out"
+ },
+ "W14": {
+  "name": "MIPICSI_0_P",
+  "type": "input"
+ },
+ "W15": {
+  "name": "MIPICSI_1_P",
+  "type": "input"
+ },
+ "W16": {
+  "name": "MIPICSI_C_P",
+  "type": "input"
+ },
+ "W17": {
+  "name": "LFXO_P",
+  "type": "input"
+ },
+ "W18": {
+  "name": "VREG_CORE_0V8",
+  "type": "power_out"
+ },
+ "W19": {
+  "name": "VREG_LP_1V8",
+  "type": "power_out"
+ }
+}

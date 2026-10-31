@@ -1,0 +1,9 @@
+*.kicad_prl
+*-backups/
+fp-info-cache
+.DS_Store
+*.lck
+.history/
+hardware/*-backups/
+__pycache__/
+*.kicad_prl

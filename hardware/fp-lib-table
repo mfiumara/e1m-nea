@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "fiumara-ae3-som")(type "KiCad")(uri "${KIPRJMOD}/lib/fiumara-ae3-som.pretty")(options "")(descr "Fiumara Labs AE3 SoM parts"))
+)
